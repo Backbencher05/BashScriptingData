@@ -1,0 +1,540 @@
+2023-06-11T06:03:28Z DEBUG Librepo version: 1.9.2 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1 zlib/1.2.11 brotli/1.0.6 libidn2/2.0.5 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.8.5/openssl/zlib nghttp2/1.33.0)
+2023-06-11T06:03:28Z DEBUG Current date: 2023-06-11T11:33:28+0530
+2023-06-11T06:03:29Z DEBUG Librepo version: 1.9.2 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1 zlib/1.2.11 brotli/1.0.6 libidn2/2.0.5 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.8.5/openssl/zlib nghttp2/1.33.0)
+2023-06-11T06:03:29Z DEBUG Current date: 2023-06-11T11:33:29+0530
+2023-06-11T06:24:31Z DEBUG Librepo version: 1.9.2 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1 zlib/1.2.11 brotli/1.0.6 libidn2/2.0.5 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.8.5/openssl/zlib nghttp2/1.33.0)
+2023-06-11T06:24:31Z DEBUG Current date: 2023-06-11T11:54:31+0530
+2023-06-11T06:24:32Z DEBUG Librepo version: 1.9.2 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1 zlib/1.2.11 brotli/1.0.6 libidn2/2.0.5 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.8.5/openssl/zlib nghttp2/1.33.0)
+2023-06-11T06:24:32Z DEBUG Current date: 2023-06-11T11:54:32+0530
+2023-06-11T06:24:34Z DEBUG lr_handle_perform: Using dir: /var/cache/dnf/dvd1-74ccd3ecc1adc485
+2023-06-11T06:24:34Z DEBUG lr_handle_perform: Using own SIGINT handler
+2023-06-11T06:24:34Z DEBUG lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+2023-06-11T06:24:34Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+2023-06-11T06:24:34Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+2023-06-11T06:24:34Z DEBUG lr_handle_perform: Downloading/Locating yum repo
+2023-06-11T06:24:34Z DEBUG lr_yum_use_local: Locating repo..
+2023-06-11T06:24:34Z DEBUG lr_yum_use_local_load_base: Parsing repomd.xml
+2023-06-11T06:24:34Z DEBUG lr_yum_use_local_load_base: Repomd revision: 1554366845
+2023-06-11T06:24:34Z DEBUG lr_yum_use_local: Repository was successfully located
+2023-06-11T06:24:34Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd1-74ccd3ecc1adc485/repodata/dff01e53affcda357b4a69555fdd827f5ab5a8405b8a6c72149d0f7ed068788e-primary.xml.gz (expected: dff01e53affcda357b4a69555fdd827f5ab5a8405b8a6c72149d0f7ed068788e [sha256])
+2023-06-11T06:24:34Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686293792]] dff01e53affcda357b4a69555fdd827f5ab5a8405b8a6c72149d0f7ed068788e
+2023-06-11T06:24:34Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:24:34Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd1-74ccd3ecc1adc485/repodata/fbe3be0537ef3170409bef493fceafed6466990d51fb1283f3ee9364e579e349-filelists.xml.gz (expected: fbe3be0537ef3170409bef493fceafed6466990d51fb1283f3ee9364e579e349 [sha256])
+2023-06-11T06:24:34Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143152]] fbe3be0537ef3170409bef493fceafed6466990d51fb1283f3ee9364e579e349
+2023-06-11T06:24:34Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:24:34Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd1-74ccd3ecc1adc485/repodata/b888cca8e62c8b7fb61ed7725a26ac205b2d5b652d61a074cdfceef2a85d3a1a-comps-AppStream.x86_64.xml.gz (expected: b888cca8e62c8b7fb61ed7725a26ac205b2d5b652d61a074cdfceef2a85d3a1a [sha256])
+2023-06-11T06:24:34Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143152]] b888cca8e62c8b7fb61ed7725a26ac205b2d5b652d61a074cdfceef2a85d3a1a
+2023-06-11T06:24:34Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:24:34Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd1-74ccd3ecc1adc485/repodata/98dae735a6cd9b91d1f8e1a1a91ef7bebf6e9c329b8d615c4b8ba4a6f509f2c8-modules.yaml.gz (expected: 98dae735a6cd9b91d1f8e1a1a91ef7bebf6e9c329b8d615c4b8ba4a6f509f2c8 [sha256])
+2023-06-11T06:24:34Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143152]] 98dae735a6cd9b91d1f8e1a1a91ef7bebf6e9c329b8d615c4b8ba4a6f509f2c8
+2023-06-11T06:24:34Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:24:34Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd1-74ccd3ecc1adc485/repodata/18b916195629c8cac7d07ece1dbe61ec2b48bb835ea72f5ecc837976a52d5726-productid.gz (expected: 18b916195629c8cac7d07ece1dbe61ec2b48bb835ea72f5ecc837976a52d5726 [sha256])
+2023-06-11T06:24:34Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143152]] 18b916195629c8cac7d07ece1dbe61ec2b48bb835ea72f5ecc837976a52d5726
+2023-06-11T06:24:34Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:24:34Z DEBUG lr_handle_perform: Restoring an old SIGINT handler
+2023-06-11T06:24:34Z DEBUG lr_handle_perform: Using dir: /tmp/tmpdir.KizLSv
+2023-06-11T06:24:34Z DEBUG lr_handle_perform: Using own SIGINT handler
+2023-06-11T06:24:34Z DEBUG lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+2023-06-11T06:24:34Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+2023-06-11T06:24:34Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+2023-06-11T06:24:34Z DEBUG lr_handle_perform: Downloading/Locating yum repo
+2023-06-11T06:24:34Z DEBUG lr_yum_download_remote: Downloading/Copying repo..
+2023-06-11T06:24:34Z DEBUG lr_yum_download_repomd: Downloading repomd.xml via mirrorlist
+2023-06-11T06:24:34Z DEBUG lr_download: Target: repodata/repomd.xml (-)
+2023-06-11T06:24:34Z DEBUG lr_prepare_lrmirrors: Preparing internal mirror list for handle id: 0x5578d35b5d70
+2023-06-11T06:24:34Z DEBUG lr_prepare_lrmirrors: Mirror: file:///dvd/AppStream
+2023-06-11T06:24:34Z DEBUG select_next_target: Selecting mirror for: repodata/repomd.xml
+2023-06-11T06:24:34Z DEBUG prepare_next_transfer: URL: file:///dvd/AppStream/repodata/repomd.xml
+2023-06-11T06:24:34Z DEBUG lr_download: Downloading started
+2023-06-11T06:24:34Z DEBUG check_transfer_statuses: Transfer finished: repodata/repomd.xml (Effective url: file:///dvd/AppStream/repodata/repomd.xml)
+2023-06-11T06:24:34Z DEBUG lr_yum_download_remote: Parsing repomd.xml
+2023-06-11T06:24:34Z DEBUG 1554366845: Repomd revision: lr_yum_download_remote
+2023-06-11T06:24:34Z DEBUG lr_handle_perform: Restoring an old SIGINT handler
+2023-06-11T06:24:34Z DEBUG lr_handle_perform: Using dir: /var/cache/dnf/dvd2-cec9500bc1c897a5
+2023-06-11T06:24:34Z DEBUG lr_handle_perform: Using own SIGINT handler
+2023-06-11T06:24:34Z DEBUG lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+2023-06-11T06:24:34Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+2023-06-11T06:24:34Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+2023-06-11T06:24:34Z DEBUG lr_handle_perform: Downloading/Locating yum repo
+2023-06-11T06:24:34Z DEBUG lr_yum_use_local: Locating repo..
+2023-06-11T06:24:34Z DEBUG lr_yum_use_local_load_base: Parsing repomd.xml
+2023-06-11T06:24:34Z DEBUG lr_yum_use_local_load_base: Repomd revision: 1554366872
+2023-06-11T06:24:34Z DEBUG lr_yum_use_local: Repository was successfully located
+2023-06-11T06:24:34Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd2-cec9500bc1c897a5/repodata/e55e203db974accc40eb43d0233170115d7325579e6cf2639d25e9e3f28e1fe9-primary.xml.gz (expected: e55e203db974accc40eb43d0233170115d7325579e6cf2639d25e9e3f28e1fe9 [sha256])
+2023-06-11T06:24:34Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686293792]] e55e203db974accc40eb43d0233170115d7325579e6cf2639d25e9e3f28e1fe9
+2023-06-11T06:24:34Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:24:34Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd2-cec9500bc1c897a5/repodata/b7d59281dea39970cf87b46fd16010ebebd9ebbc895902869b0153d71d519424-filelists.xml.gz (expected: b7d59281dea39970cf87b46fd16010ebebd9ebbc895902869b0153d71d519424 [sha256])
+2023-06-11T06:24:34Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143162]] b7d59281dea39970cf87b46fd16010ebebd9ebbc895902869b0153d71d519424
+2023-06-11T06:24:34Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:24:34Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd2-cec9500bc1c897a5/repodata/4f66544f7a6c519281aa02bebae9440b20fec3e9eb526d65fd70c60c051384f0-comps-BaseOS.x86_64.xml.gz (expected: 4f66544f7a6c519281aa02bebae9440b20fec3e9eb526d65fd70c60c051384f0 [sha256])
+2023-06-11T06:24:34Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143162]] 4f66544f7a6c519281aa02bebae9440b20fec3e9eb526d65fd70c60c051384f0
+2023-06-11T06:24:34Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:24:34Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd2-cec9500bc1c897a5/repodata/18b916195629c8cac7d07ece1dbe61ec2b48bb835ea72f5ecc837976a52d5726-productid.gz (expected: 18b916195629c8cac7d07ece1dbe61ec2b48bb835ea72f5ecc837976a52d5726 [sha256])
+2023-06-11T06:24:34Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143162]] 18b916195629c8cac7d07ece1dbe61ec2b48bb835ea72f5ecc837976a52d5726
+2023-06-11T06:24:34Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:24:34Z DEBUG lr_handle_perform: Restoring an old SIGINT handler
+2023-06-11T06:24:34Z DEBUG lr_handle_perform: Using dir: /tmp/tmpdir.3XFbQa
+2023-06-11T06:24:34Z DEBUG lr_handle_perform: Using own SIGINT handler
+2023-06-11T06:24:34Z DEBUG lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+2023-06-11T06:24:34Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+2023-06-11T06:24:34Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+2023-06-11T06:24:34Z DEBUG lr_handle_perform: Downloading/Locating yum repo
+2023-06-11T06:24:34Z DEBUG lr_yum_download_remote: Downloading/Copying repo..
+2023-06-11T06:24:34Z DEBUG lr_yum_download_repomd: Downloading repomd.xml via mirrorlist
+2023-06-11T06:24:34Z DEBUG lr_download: Target: repodata/repomd.xml (-)
+2023-06-11T06:24:34Z DEBUG lr_prepare_lrmirrors: Preparing internal mirror list for handle id: 0x5578d35b5d70
+2023-06-11T06:24:34Z DEBUG lr_prepare_lrmirrors: Mirror: file:///dvd/BaseOS
+2023-06-11T06:24:34Z DEBUG select_next_target: Selecting mirror for: repodata/repomd.xml
+2023-06-11T06:24:34Z DEBUG prepare_next_transfer: URL: file:///dvd/BaseOS/repodata/repomd.xml
+2023-06-11T06:24:34Z DEBUG lr_download: Downloading started
+2023-06-11T06:24:34Z DEBUG check_transfer_statuses: Transfer finished: repodata/repomd.xml (Effective url: file:///dvd/BaseOS/repodata/repomd.xml)
+2023-06-11T06:24:34Z DEBUG lr_yum_download_remote: Parsing repomd.xml
+2023-06-11T06:24:34Z DEBUG 1554366872: Repomd revision: lr_yum_download_remote
+2023-06-11T06:24:34Z DEBUG lr_handle_perform: Restoring an old SIGINT handler
+2023-06-11T06:24:35Z DEBUG lr_handle_perform: Using dir: /var/cache/dnf/docker-091d8a9c23201250
+2023-06-11T06:24:35Z DEBUG lr_handle_perform: Using own SIGINT handler
+2023-06-11T06:24:35Z DEBUG lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+2023-06-11T06:24:35Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+2023-06-11T06:24:35Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+2023-06-11T06:24:35Z DEBUG lr_handle_perform: Downloading/Locating yum repo
+2023-06-11T06:24:35Z DEBUG lr_yum_use_local: Locating repo..
+2023-06-11T06:24:35Z DEBUG lr_yum_use_local_load_base: Parsing repomd.xml
+2023-06-11T06:24:35Z DEBUG lr_yum_use_local_load_base: Repomd revision: 1685087479
+2023-06-11T06:24:35Z DEBUG lr_yum_use_local: Repository was successfully located
+2023-06-11T06:24:35Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/docker-091d8a9c23201250/repodata/9e6c9013ba8d2988ce7221de7db38d40682d84ab61e0d428cfa28e40da9084ab-primary.xml.gz (expected: 9e6c9013ba8d2988ce7221de7db38d40682d84ab61e0d428cfa28e40da9084ab [sha256])
+2023-06-11T06:24:35Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686293795]] 9e6c9013ba8d2988ce7221de7db38d40682d84ab61e0d428cfa28e40da9084ab
+2023-06-11T06:24:35Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:24:35Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/docker-091d8a9c23201250/repodata/049536f35efe8f55dafce641e871286a233a8411652f10efbc32e4322a032963-filelists.xml.gz (expected: 049536f35efe8f55dafce641e871286a233a8411652f10efbc32e4322a032963 [sha256])
+2023-06-11T06:24:35Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143753]] 049536f35efe8f55dafce641e871286a233a8411652f10efbc32e4322a032963
+2023-06-11T06:24:35Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:24:35Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/docker-091d8a9c23201250/repodata/65c4f66e2808d328890505c3c2f13bb35a96f457d1c21a6346191c4dc07e6080-updateinfo.xml.gz (expected: 65c4f66e2808d328890505c3c2f13bb35a96f457d1c21a6346191c4dc07e6080 [sha256])
+2023-06-11T06:24:35Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143753]] 65c4f66e2808d328890505c3c2f13bb35a96f457d1c21a6346191c4dc07e6080
+2023-06-11T06:24:35Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:24:35Z DEBUG lr_handle_perform: Restoring an old SIGINT handler
+2023-06-11T06:24:35Z DEBUG lr_handle_perform: Using dir: /tmp/tmpdir.TrCojQ
+2023-06-11T06:24:35Z DEBUG lr_handle_perform: Using own SIGINT handler
+2023-06-11T06:24:35Z DEBUG lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+2023-06-11T06:24:35Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+2023-06-11T06:24:35Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+2023-06-11T06:24:35Z DEBUG lr_handle_perform: Downloading/Locating yum repo
+2023-06-11T06:24:35Z DEBUG lr_yum_download_remote: Downloading/Copying repo..
+2023-06-11T06:24:35Z DEBUG lr_yum_download_repomd: Downloading repomd.xml via mirrorlist
+2023-06-11T06:24:35Z DEBUG lr_download: Target: repodata/repomd.xml (-)
+2023-06-11T06:24:35Z DEBUG lr_prepare_lrmirrors: Preparing internal mirror list for handle id: 0x5578d355fc10
+2023-06-11T06:24:35Z DEBUG lr_prepare_lrmirrors: Mirror: https://download.docker.com/linux/centos/7/x86_64/stable
+2023-06-11T06:24:35Z DEBUG select_next_target: Selecting mirror for: repodata/repomd.xml
+2023-06-11T06:24:35Z DEBUG prepare_next_transfer: URL: https://download.docker.com/linux/centos/7/x86_64/stable/repodata/repomd.xml
+2023-06-11T06:24:35Z DEBUG lr_download: Downloading started
+2023-06-11T06:24:36Z DEBUG check_transfer_statuses: Transfer finished: repodata/repomd.xml (Effective url: https://download.docker.com/linux/centos/7/x86_64/stable/repodata/repomd.xml)
+2023-06-11T06:24:36Z DEBUG lr_yum_download_remote: Parsing repomd.xml
+2023-06-11T06:24:36Z DEBUG 1685087479: Repomd revision: lr_yum_download_remote
+2023-06-11T06:24:36Z DEBUG lr_handle_perform: Restoring an old SIGINT handler
+2023-06-11T06:24:36Z DEBUG lr_handle_perform: Using dir: /var/cache/dnf/jenkins-0919f06c02b07800
+2023-06-11T06:24:36Z DEBUG lr_handle_perform: Using own SIGINT handler
+2023-06-11T06:24:36Z DEBUG lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+2023-06-11T06:24:36Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+2023-06-11T06:24:36Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+2023-06-11T06:24:36Z DEBUG lr_handle_perform: Downloading/Locating yum repo
+2023-06-11T06:24:36Z DEBUG lr_yum_use_local: Locating repo..
+2023-06-11T06:24:36Z DEBUG lr_yum_use_local_load_base: Parsing repomd.xml
+2023-06-11T06:24:36Z DEBUG lr_yum_use_local_load_base: Repomd revision: 1685529331
+2023-06-11T06:24:36Z DEBUG lr_yum_use_local: Repository was successfully located
+2023-06-11T06:24:36Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/jenkins-0919f06c02b07800/repodata/af956fd36b73ba5411203f83aa76f61a73a0ad52436fa3a4633b20adb66e9b68-filelists.xml.gz (expected: af956fd36b73ba5411203f83aa76f61a73a0ad52436fa3a4633b20adb66e9b68 [sha256])
+2023-06-11T06:24:36Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143173]] af956fd36b73ba5411203f83aa76f61a73a0ad52436fa3a4633b20adb66e9b68
+2023-06-11T06:24:36Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:24:36Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/jenkins-0919f06c02b07800/repodata/34ebf8b4a2c22895a4421e6df590bd24d3a8aaf90505842836f10cd9b37a95f1-primary.xml.gz (expected: 34ebf8b4a2c22895a4421e6df590bd24d3a8aaf90505842836f10cd9b37a95f1 [sha256])
+2023-06-11T06:24:36Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686293798]] 34ebf8b4a2c22895a4421e6df590bd24d3a8aaf90505842836f10cd9b37a95f1
+2023-06-11T06:24:36Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:24:36Z DEBUG lr_handle_perform: Restoring an old SIGINT handler
+2023-06-11T06:24:36Z DEBUG lr_handle_perform: Using dir: /tmp/tmpdir.TwsWOy
+2023-06-11T06:24:36Z DEBUG lr_handle_perform: Using own SIGINT handler
+2023-06-11T06:24:36Z DEBUG lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+2023-06-11T06:24:36Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+2023-06-11T06:24:36Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+2023-06-11T06:24:36Z DEBUG lr_handle_perform: Downloading/Locating yum repo
+2023-06-11T06:24:36Z DEBUG lr_yum_download_remote: Downloading/Copying repo..
+2023-06-11T06:24:36Z DEBUG lr_yum_download_repomd: Downloading repomd.xml via mirrorlist
+2023-06-11T06:24:36Z DEBUG lr_download: Target: repodata/repomd.xml (-)
+2023-06-11T06:24:36Z DEBUG lr_prepare_lrmirrors: Preparing internal mirror list for handle id: 0x5578d35b6530
+2023-06-11T06:24:36Z DEBUG lr_prepare_lrmirrors: Mirror: http://pkg.jenkins.io/redhat-stable
+2023-06-11T06:24:36Z DEBUG select_next_target: Selecting mirror for: repodata/repomd.xml
+2023-06-11T06:24:36Z DEBUG prepare_next_transfer: URL: http://pkg.jenkins.io/redhat-stable/repodata/repomd.xml
+2023-06-11T06:24:36Z DEBUG lr_download: Downloading started
+2023-06-11T06:24:38Z DEBUG check_transfer_statuses: Transfer finished: repodata/repomd.xml (Effective url: https://pkg.jenkins.io/redhat-stable/repodata/repomd.xml)
+2023-06-11T06:24:38Z DEBUG lr_yum_download_remote: Parsing repomd.xml
+2023-06-11T06:24:38Z DEBUG 1685529331: Repomd revision: lr_yum_download_remote
+2023-06-11T06:24:38Z DEBUG lr_handle_perform: Restoring an old SIGINT handler
+2023-06-11T06:30:17Z DEBUG Librepo version: 1.9.2 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1 zlib/1.2.11 brotli/1.0.6 libidn2/2.0.5 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.8.5/openssl/zlib nghttp2/1.33.0)
+2023-06-11T06:30:17Z DEBUG Current date: 2023-06-11T12:00:17+0530
+2023-06-11T06:30:18Z DEBUG Librepo version: 1.9.2 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1 zlib/1.2.11 brotli/1.0.6 libidn2/2.0.5 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.8.5/openssl/zlib nghttp2/1.33.0)
+2023-06-11T06:30:18Z DEBUG Current date: 2023-06-11T12:00:18+0530
+2023-06-11T06:30:19Z DEBUG lr_handle_perform: Using dir: /var/cache/dnf/dvd1-74ccd3ecc1adc485
+2023-06-11T06:30:19Z DEBUG lr_handle_perform: Using own SIGINT handler
+2023-06-11T06:30:19Z DEBUG lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+2023-06-11T06:30:19Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+2023-06-11T06:30:19Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+2023-06-11T06:30:19Z DEBUG lr_handle_perform: Downloading/Locating yum repo
+2023-06-11T06:30:19Z DEBUG lr_yum_use_local: Locating repo..
+2023-06-11T06:30:19Z DEBUG lr_yum_use_local_load_base: Parsing repomd.xml
+2023-06-11T06:30:19Z DEBUG lr_yum_use_local_load_base: Repomd revision: 1554366845
+2023-06-11T06:30:19Z DEBUG lr_yum_use_local: Repository was successfully located
+2023-06-11T06:30:19Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd1-74ccd3ecc1adc485/repodata/dff01e53affcda357b4a69555fdd827f5ab5a8405b8a6c72149d0f7ed068788e-primary.xml.gz (expected: dff01e53affcda357b4a69555fdd827f5ab5a8405b8a6c72149d0f7ed068788e [sha256])
+2023-06-11T06:30:19Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:30:19Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd1-74ccd3ecc1adc485/repodata/fbe3be0537ef3170409bef493fceafed6466990d51fb1283f3ee9364e579e349-filelists.xml.gz (expected: fbe3be0537ef3170409bef493fceafed6466990d51fb1283f3ee9364e579e349 [sha256])
+2023-06-11T06:30:19Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143152]] fbe3be0537ef3170409bef493fceafed6466990d51fb1283f3ee9364e579e349
+2023-06-11T06:30:19Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:30:19Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd1-74ccd3ecc1adc485/repodata/b888cca8e62c8b7fb61ed7725a26ac205b2d5b652d61a074cdfceef2a85d3a1a-comps-AppStream.x86_64.xml.gz (expected: b888cca8e62c8b7fb61ed7725a26ac205b2d5b652d61a074cdfceef2a85d3a1a [sha256])
+2023-06-11T06:30:19Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143152]] b888cca8e62c8b7fb61ed7725a26ac205b2d5b652d61a074cdfceef2a85d3a1a
+2023-06-11T06:30:19Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:30:19Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd1-74ccd3ecc1adc485/repodata/98dae735a6cd9b91d1f8e1a1a91ef7bebf6e9c329b8d615c4b8ba4a6f509f2c8-modules.yaml.gz (expected: 98dae735a6cd9b91d1f8e1a1a91ef7bebf6e9c329b8d615c4b8ba4a6f509f2c8 [sha256])
+2023-06-11T06:30:19Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143152]] 98dae735a6cd9b91d1f8e1a1a91ef7bebf6e9c329b8d615c4b8ba4a6f509f2c8
+2023-06-11T06:30:19Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:30:19Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd1-74ccd3ecc1adc485/repodata/18b916195629c8cac7d07ece1dbe61ec2b48bb835ea72f5ecc837976a52d5726-productid.gz (expected: 18b916195629c8cac7d07ece1dbe61ec2b48bb835ea72f5ecc837976a52d5726 [sha256])
+2023-06-11T06:30:19Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143152]] 18b916195629c8cac7d07ece1dbe61ec2b48bb835ea72f5ecc837976a52d5726
+2023-06-11T06:30:19Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:30:19Z DEBUG lr_handle_perform: Restoring an old SIGINT handler
+2023-06-11T06:30:19Z DEBUG lr_handle_perform: Using dir: /var/cache/dnf/dvd2-cec9500bc1c897a5
+2023-06-11T06:30:19Z DEBUG lr_handle_perform: Using own SIGINT handler
+2023-06-11T06:30:19Z DEBUG lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+2023-06-11T06:30:19Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+2023-06-11T06:30:19Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+2023-06-11T06:30:19Z DEBUG lr_handle_perform: Downloading/Locating yum repo
+2023-06-11T06:30:19Z DEBUG lr_yum_use_local: Locating repo..
+2023-06-11T06:30:19Z DEBUG lr_yum_use_local_load_base: Parsing repomd.xml
+2023-06-11T06:30:19Z DEBUG lr_yum_use_local_load_base: Repomd revision: 1554366872
+2023-06-11T06:30:19Z DEBUG lr_yum_use_local: Repository was successfully located
+2023-06-11T06:30:19Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd2-cec9500bc1c897a5/repodata/e55e203db974accc40eb43d0233170115d7325579e6cf2639d25e9e3f28e1fe9-primary.xml.gz (expected: e55e203db974accc40eb43d0233170115d7325579e6cf2639d25e9e3f28e1fe9 [sha256])
+2023-06-11T06:30:19Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:30:19Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd2-cec9500bc1c897a5/repodata/b7d59281dea39970cf87b46fd16010ebebd9ebbc895902869b0153d71d519424-filelists.xml.gz (expected: b7d59281dea39970cf87b46fd16010ebebd9ebbc895902869b0153d71d519424 [sha256])
+2023-06-11T06:30:19Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143162]] b7d59281dea39970cf87b46fd16010ebebd9ebbc895902869b0153d71d519424
+2023-06-11T06:30:19Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:30:19Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd2-cec9500bc1c897a5/repodata/4f66544f7a6c519281aa02bebae9440b20fec3e9eb526d65fd70c60c051384f0-comps-BaseOS.x86_64.xml.gz (expected: 4f66544f7a6c519281aa02bebae9440b20fec3e9eb526d65fd70c60c051384f0 [sha256])
+2023-06-11T06:30:19Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143162]] 4f66544f7a6c519281aa02bebae9440b20fec3e9eb526d65fd70c60c051384f0
+2023-06-11T06:30:19Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:30:19Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd2-cec9500bc1c897a5/repodata/18b916195629c8cac7d07ece1dbe61ec2b48bb835ea72f5ecc837976a52d5726-productid.gz (expected: 18b916195629c8cac7d07ece1dbe61ec2b48bb835ea72f5ecc837976a52d5726 [sha256])
+2023-06-11T06:30:19Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143162]] 18b916195629c8cac7d07ece1dbe61ec2b48bb835ea72f5ecc837976a52d5726
+2023-06-11T06:30:19Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:30:19Z DEBUG lr_handle_perform: Restoring an old SIGINT handler
+2023-06-11T06:30:19Z DEBUG lr_handle_perform: Using dir: /var/cache/dnf/docker-091d8a9c23201250
+2023-06-11T06:30:19Z DEBUG lr_handle_perform: Using own SIGINT handler
+2023-06-11T06:30:19Z DEBUG lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+2023-06-11T06:30:19Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+2023-06-11T06:30:19Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+2023-06-11T06:30:19Z DEBUG lr_handle_perform: Downloading/Locating yum repo
+2023-06-11T06:30:19Z DEBUG lr_yum_use_local: Locating repo..
+2023-06-11T06:30:19Z DEBUG lr_yum_use_local_load_base: Parsing repomd.xml
+2023-06-11T06:30:19Z DEBUG lr_yum_use_local_load_base: Repomd revision: 1685087479
+2023-06-11T06:30:19Z DEBUG lr_yum_use_local: Repository was successfully located
+2023-06-11T06:30:19Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/docker-091d8a9c23201250/repodata/9e6c9013ba8d2988ce7221de7db38d40682d84ab61e0d428cfa28e40da9084ab-primary.xml.gz (expected: 9e6c9013ba8d2988ce7221de7db38d40682d84ab61e0d428cfa28e40da9084ab [sha256])
+2023-06-11T06:30:19Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:30:19Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/docker-091d8a9c23201250/repodata/049536f35efe8f55dafce641e871286a233a8411652f10efbc32e4322a032963-filelists.xml.gz (expected: 049536f35efe8f55dafce641e871286a233a8411652f10efbc32e4322a032963 [sha256])
+2023-06-11T06:30:19Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143753]] 049536f35efe8f55dafce641e871286a233a8411652f10efbc32e4322a032963
+2023-06-11T06:30:19Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:30:19Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/docker-091d8a9c23201250/repodata/65c4f66e2808d328890505c3c2f13bb35a96f457d1c21a6346191c4dc07e6080-updateinfo.xml.gz (expected: 65c4f66e2808d328890505c3c2f13bb35a96f457d1c21a6346191c4dc07e6080 [sha256])
+2023-06-11T06:30:19Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143753]] 65c4f66e2808d328890505c3c2f13bb35a96f457d1c21a6346191c4dc07e6080
+2023-06-11T06:30:19Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:30:19Z DEBUG lr_handle_perform: Restoring an old SIGINT handler
+2023-06-11T06:30:19Z DEBUG lr_handle_perform: Using dir: /var/cache/dnf/jenkins-0919f06c02b07800
+2023-06-11T06:30:19Z DEBUG lr_handle_perform: Using own SIGINT handler
+2023-06-11T06:30:19Z DEBUG lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+2023-06-11T06:30:19Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+2023-06-11T06:30:19Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+2023-06-11T06:30:19Z DEBUG lr_handle_perform: Downloading/Locating yum repo
+2023-06-11T06:30:19Z DEBUG lr_yum_use_local: Locating repo..
+2023-06-11T06:30:19Z DEBUG lr_yum_use_local_load_base: Parsing repomd.xml
+2023-06-11T06:30:19Z DEBUG lr_yum_use_local_load_base: Repomd revision: 1685529331
+2023-06-11T06:30:19Z DEBUG lr_yum_use_local: Repository was successfully located
+2023-06-11T06:30:19Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/jenkins-0919f06c02b07800/repodata/af956fd36b73ba5411203f83aa76f61a73a0ad52436fa3a4633b20adb66e9b68-filelists.xml.gz (expected: af956fd36b73ba5411203f83aa76f61a73a0ad52436fa3a4633b20adb66e9b68 [sha256])
+2023-06-11T06:30:19Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143173]] af956fd36b73ba5411203f83aa76f61a73a0ad52436fa3a4633b20adb66e9b68
+2023-06-11T06:30:19Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:30:19Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/jenkins-0919f06c02b07800/repodata/34ebf8b4a2c22895a4421e6df590bd24d3a8aaf90505842836f10cd9b37a95f1-primary.xml.gz (expected: 34ebf8b4a2c22895a4421e6df590bd24d3a8aaf90505842836f10cd9b37a95f1 [sha256])
+2023-06-11T06:30:19Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:30:19Z DEBUG lr_handle_perform: Restoring an old SIGINT handler
+2023-06-11T06:31:22Z DEBUG Librepo version: 1.9.2 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1 zlib/1.2.11 brotli/1.0.6 libidn2/2.0.5 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.8.5/openssl/zlib nghttp2/1.33.0)
+2023-06-11T06:31:22Z DEBUG Current date: 2023-06-11T12:01:22+0530
+2023-06-11T06:31:23Z DEBUG Librepo version: 1.9.2 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1 zlib/1.2.11 brotli/1.0.6 libidn2/2.0.5 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.8.5/openssl/zlib nghttp2/1.33.0)
+2023-06-11T06:31:23Z DEBUG Current date: 2023-06-11T12:01:23+0530
+2023-06-11T06:31:24Z DEBUG lr_handle_perform: Using dir: /var/cache/dnf/dvd1-74ccd3ecc1adc485
+2023-06-11T06:31:24Z DEBUG lr_handle_perform: Using own SIGINT handler
+2023-06-11T06:31:24Z DEBUG lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+2023-06-11T06:31:24Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+2023-06-11T06:31:24Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+2023-06-11T06:31:24Z DEBUG lr_handle_perform: Downloading/Locating yum repo
+2023-06-11T06:31:24Z DEBUG lr_yum_use_local: Locating repo..
+2023-06-11T06:31:24Z DEBUG lr_yum_use_local_load_base: Parsing repomd.xml
+2023-06-11T06:31:24Z DEBUG lr_yum_use_local_load_base: Repomd revision: 1554366845
+2023-06-11T06:31:24Z DEBUG lr_yum_use_local: Repository was successfully located
+2023-06-11T06:31:24Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd1-74ccd3ecc1adc485/repodata/dff01e53affcda357b4a69555fdd827f5ab5a8405b8a6c72149d0f7ed068788e-primary.xml.gz (expected: dff01e53affcda357b4a69555fdd827f5ab5a8405b8a6c72149d0f7ed068788e [sha256])
+2023-06-11T06:31:24Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686464674]] dff01e53affcda357b4a69555fdd827f5ab5a8405b8a6c72149d0f7ed068788e
+2023-06-11T06:31:24Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:31:24Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd1-74ccd3ecc1adc485/repodata/fbe3be0537ef3170409bef493fceafed6466990d51fb1283f3ee9364e579e349-filelists.xml.gz (expected: fbe3be0537ef3170409bef493fceafed6466990d51fb1283f3ee9364e579e349 [sha256])
+2023-06-11T06:31:24Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143152]] fbe3be0537ef3170409bef493fceafed6466990d51fb1283f3ee9364e579e349
+2023-06-11T06:31:24Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:31:24Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd1-74ccd3ecc1adc485/repodata/b888cca8e62c8b7fb61ed7725a26ac205b2d5b652d61a074cdfceef2a85d3a1a-comps-AppStream.x86_64.xml.gz (expected: b888cca8e62c8b7fb61ed7725a26ac205b2d5b652d61a074cdfceef2a85d3a1a [sha256])
+2023-06-11T06:31:24Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143152]] b888cca8e62c8b7fb61ed7725a26ac205b2d5b652d61a074cdfceef2a85d3a1a
+2023-06-11T06:31:24Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:31:24Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd1-74ccd3ecc1adc485/repodata/98dae735a6cd9b91d1f8e1a1a91ef7bebf6e9c329b8d615c4b8ba4a6f509f2c8-modules.yaml.gz (expected: 98dae735a6cd9b91d1f8e1a1a91ef7bebf6e9c329b8d615c4b8ba4a6f509f2c8 [sha256])
+2023-06-11T06:31:24Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143152]] 98dae735a6cd9b91d1f8e1a1a91ef7bebf6e9c329b8d615c4b8ba4a6f509f2c8
+2023-06-11T06:31:24Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:31:24Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd1-74ccd3ecc1adc485/repodata/18b916195629c8cac7d07ece1dbe61ec2b48bb835ea72f5ecc837976a52d5726-productid.gz (expected: 18b916195629c8cac7d07ece1dbe61ec2b48bb835ea72f5ecc837976a52d5726 [sha256])
+2023-06-11T06:31:24Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143152]] 18b916195629c8cac7d07ece1dbe61ec2b48bb835ea72f5ecc837976a52d5726
+2023-06-11T06:31:24Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:31:24Z DEBUG lr_handle_perform: Restoring an old SIGINT handler
+2023-06-11T06:31:24Z DEBUG lr_handle_perform: Using dir: /var/cache/dnf/dvd2-cec9500bc1c897a5
+2023-06-11T06:31:24Z DEBUG lr_handle_perform: Using own SIGINT handler
+2023-06-11T06:31:24Z DEBUG lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+2023-06-11T06:31:24Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+2023-06-11T06:31:24Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+2023-06-11T06:31:24Z DEBUG lr_handle_perform: Downloading/Locating yum repo
+2023-06-11T06:31:24Z DEBUG lr_yum_use_local: Locating repo..
+2023-06-11T06:31:24Z DEBUG lr_yum_use_local_load_base: Parsing repomd.xml
+2023-06-11T06:31:24Z DEBUG lr_yum_use_local_load_base: Repomd revision: 1554366872
+2023-06-11T06:31:24Z DEBUG lr_yum_use_local: Repository was successfully located
+2023-06-11T06:31:24Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd2-cec9500bc1c897a5/repodata/e55e203db974accc40eb43d0233170115d7325579e6cf2639d25e9e3f28e1fe9-primary.xml.gz (expected: e55e203db974accc40eb43d0233170115d7325579e6cf2639d25e9e3f28e1fe9 [sha256])
+2023-06-11T06:31:24Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686464674]] e55e203db974accc40eb43d0233170115d7325579e6cf2639d25e9e3f28e1fe9
+2023-06-11T06:31:24Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:31:24Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd2-cec9500bc1c897a5/repodata/b7d59281dea39970cf87b46fd16010ebebd9ebbc895902869b0153d71d519424-filelists.xml.gz (expected: b7d59281dea39970cf87b46fd16010ebebd9ebbc895902869b0153d71d519424 [sha256])
+2023-06-11T06:31:24Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143162]] b7d59281dea39970cf87b46fd16010ebebd9ebbc895902869b0153d71d519424
+2023-06-11T06:31:24Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:31:24Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd2-cec9500bc1c897a5/repodata/4f66544f7a6c519281aa02bebae9440b20fec3e9eb526d65fd70c60c051384f0-comps-BaseOS.x86_64.xml.gz (expected: 4f66544f7a6c519281aa02bebae9440b20fec3e9eb526d65fd70c60c051384f0 [sha256])
+2023-06-11T06:31:24Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143162]] 4f66544f7a6c519281aa02bebae9440b20fec3e9eb526d65fd70c60c051384f0
+2023-06-11T06:31:24Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:31:24Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd2-cec9500bc1c897a5/repodata/18b916195629c8cac7d07ece1dbe61ec2b48bb835ea72f5ecc837976a52d5726-productid.gz (expected: 18b916195629c8cac7d07ece1dbe61ec2b48bb835ea72f5ecc837976a52d5726 [sha256])
+2023-06-11T06:31:24Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143162]] 18b916195629c8cac7d07ece1dbe61ec2b48bb835ea72f5ecc837976a52d5726
+2023-06-11T06:31:24Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:31:24Z DEBUG lr_handle_perform: Restoring an old SIGINT handler
+2023-06-11T06:31:24Z DEBUG lr_handle_perform: Using dir: /var/cache/dnf/docker-091d8a9c23201250
+2023-06-11T06:31:24Z DEBUG lr_handle_perform: Using own SIGINT handler
+2023-06-11T06:31:24Z DEBUG lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+2023-06-11T06:31:24Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+2023-06-11T06:31:24Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+2023-06-11T06:31:24Z DEBUG lr_handle_perform: Downloading/Locating yum repo
+2023-06-11T06:31:24Z DEBUG lr_yum_use_local: Locating repo..
+2023-06-11T06:31:24Z DEBUG lr_yum_use_local_load_base: Parsing repomd.xml
+2023-06-11T06:31:24Z DEBUG lr_yum_use_local_load_base: Repomd revision: 1685087479
+2023-06-11T06:31:24Z DEBUG lr_yum_use_local: Repository was successfully located
+2023-06-11T06:31:24Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/docker-091d8a9c23201250/repodata/9e6c9013ba8d2988ce7221de7db38d40682d84ab61e0d428cfa28e40da9084ab-primary.xml.gz (expected: 9e6c9013ba8d2988ce7221de7db38d40682d84ab61e0d428cfa28e40da9084ab [sha256])
+2023-06-11T06:31:24Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686464676]] 9e6c9013ba8d2988ce7221de7db38d40682d84ab61e0d428cfa28e40da9084ab
+2023-06-11T06:31:24Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:31:24Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/docker-091d8a9c23201250/repodata/049536f35efe8f55dafce641e871286a233a8411652f10efbc32e4322a032963-filelists.xml.gz (expected: 049536f35efe8f55dafce641e871286a233a8411652f10efbc32e4322a032963 [sha256])
+2023-06-11T06:31:24Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143753]] 049536f35efe8f55dafce641e871286a233a8411652f10efbc32e4322a032963
+2023-06-11T06:31:24Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:31:24Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/docker-091d8a9c23201250/repodata/65c4f66e2808d328890505c3c2f13bb35a96f457d1c21a6346191c4dc07e6080-updateinfo.xml.gz (expected: 65c4f66e2808d328890505c3c2f13bb35a96f457d1c21a6346191c4dc07e6080 [sha256])
+2023-06-11T06:31:24Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143753]] 65c4f66e2808d328890505c3c2f13bb35a96f457d1c21a6346191c4dc07e6080
+2023-06-11T06:31:24Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:31:24Z DEBUG lr_handle_perform: Restoring an old SIGINT handler
+2023-06-11T06:31:24Z DEBUG lr_handle_perform: Using dir: /var/cache/dnf/jenkins-0919f06c02b07800
+2023-06-11T06:31:24Z DEBUG lr_handle_perform: Using own SIGINT handler
+2023-06-11T06:31:24Z DEBUG lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+2023-06-11T06:31:24Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+2023-06-11T06:31:24Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+2023-06-11T06:31:24Z DEBUG lr_handle_perform: Downloading/Locating yum repo
+2023-06-11T06:31:24Z DEBUG lr_yum_use_local: Locating repo..
+2023-06-11T06:31:24Z DEBUG lr_yum_use_local_load_base: Parsing repomd.xml
+2023-06-11T06:31:24Z DEBUG lr_yum_use_local_load_base: Repomd revision: 1685529331
+2023-06-11T06:31:24Z DEBUG lr_yum_use_local: Repository was successfully located
+2023-06-11T06:31:24Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/jenkins-0919f06c02b07800/repodata/af956fd36b73ba5411203f83aa76f61a73a0ad52436fa3a4633b20adb66e9b68-filelists.xml.gz (expected: af956fd36b73ba5411203f83aa76f61a73a0ad52436fa3a4633b20adb66e9b68 [sha256])
+2023-06-11T06:31:24Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143173]] af956fd36b73ba5411203f83aa76f61a73a0ad52436fa3a4633b20adb66e9b68
+2023-06-11T06:31:24Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:31:24Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/jenkins-0919f06c02b07800/repodata/34ebf8b4a2c22895a4421e6df590bd24d3a8aaf90505842836f10cd9b37a95f1-primary.xml.gz (expected: 34ebf8b4a2c22895a4421e6df590bd24d3a8aaf90505842836f10cd9b37a95f1 [sha256])
+2023-06-11T06:31:24Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686464678]] 34ebf8b4a2c22895a4421e6df590bd24d3a8aaf90505842836f10cd9b37a95f1
+2023-06-11T06:31:24Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T06:31:24Z DEBUG lr_handle_perform: Restoring an old SIGINT handler
+2023-06-11T06:57:58Z DEBUG Librepo version: 1.9.2 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1 zlib/1.2.11 brotli/1.0.6 libidn2/2.0.5 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.8.5/openssl/zlib nghttp2/1.33.0)
+2023-06-11T06:57:58Z DEBUG Current date: 2023-06-11T12:27:58+0530
+2023-06-11T06:58:01Z DEBUG Librepo version: 1.9.2 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1 zlib/1.2.11 brotli/1.0.6 libidn2/2.0.5 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.8.5/openssl/zlib nghttp2/1.33.0)
+2023-06-11T06:58:01Z DEBUG Current date: 2023-06-11T12:28:01+0530
+2023-06-11T07:58:09Z DEBUG Librepo version: 1.9.2 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1 zlib/1.2.11 brotli/1.0.6 libidn2/2.0.5 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.8.5/openssl/zlib nghttp2/1.33.0)
+2023-06-11T07:58:09Z DEBUG Current date: 2023-06-11T13:28:09+0530
+2023-06-11T07:58:09Z DEBUG Librepo version: 1.9.2 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1 zlib/1.2.11 brotli/1.0.6 libidn2/2.0.5 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.8.5/openssl/zlib nghttp2/1.33.0)
+2023-06-11T07:58:09Z DEBUG Current date: 2023-06-11T13:28:09+0530
+2023-06-11T08:58:12Z DEBUG Librepo version: 1.9.2 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1 zlib/1.2.11 brotli/1.0.6 libidn2/2.0.5 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.8.5/openssl/zlib nghttp2/1.33.0)
+2023-06-11T08:58:12Z DEBUG Current date: 2023-06-11T14:28:12+0530
+2023-06-11T08:58:13Z DEBUG Librepo version: 1.9.2 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1 zlib/1.2.11 brotli/1.0.6 libidn2/2.0.5 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.8.5/openssl/zlib nghttp2/1.33.0)
+2023-06-11T08:58:13Z DEBUG Current date: 2023-06-11T14:28:13+0530
+2023-06-11T10:23:00Z DEBUG Librepo version: 1.9.2 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1 zlib/1.2.11 brotli/1.0.6 libidn2/2.0.5 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.8.5/openssl/zlib nghttp2/1.33.0)
+2023-06-11T10:23:00Z DEBUG Current date: 2023-06-11T15:53:00+0530
+2023-06-11T10:23:01Z DEBUG Librepo version: 1.9.2 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1 zlib/1.2.11 brotli/1.0.6 libidn2/2.0.5 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.8.5/openssl/zlib nghttp2/1.33.0)
+2023-06-11T10:23:01Z DEBUG Current date: 2023-06-11T15:53:01+0530
+2023-06-11T11:23:08Z DEBUG Librepo version: 1.9.2 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1 zlib/1.2.11 brotli/1.0.6 libidn2/2.0.5 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.8.5/openssl/zlib nghttp2/1.33.0)
+2023-06-11T11:23:08Z DEBUG Current date: 2023-06-11T16:53:08+0530
+2023-06-11T11:23:09Z DEBUG Librepo version: 1.9.2 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1 zlib/1.2.11 brotli/1.0.6 libidn2/2.0.5 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.8.5/openssl/zlib nghttp2/1.33.0)
+2023-06-11T11:23:09Z DEBUG Current date: 2023-06-11T16:53:09+0530
+2023-06-11T12:23:14Z DEBUG Librepo version: 1.9.2 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1 zlib/1.2.11 brotli/1.0.6 libidn2/2.0.5 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.8.5/openssl/zlib nghttp2/1.33.0)
+2023-06-11T12:23:14Z DEBUG Current date: 2023-06-11T17:53:14+0530
+2023-06-11T12:23:15Z DEBUG Librepo version: 1.9.2 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1 zlib/1.2.11 brotli/1.0.6 libidn2/2.0.5 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.8.5/openssl/zlib nghttp2/1.33.0)
+2023-06-11T12:23:15Z DEBUG Current date: 2023-06-11T17:53:15+0530
+2023-06-11T13:15:47Z DEBUG Librepo version: 1.9.2 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1 zlib/1.2.11 brotli/1.0.6 libidn2/2.0.5 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.8.5/openssl/zlib nghttp2/1.33.0)
+2023-06-11T13:15:47Z DEBUG Current date: 2023-06-11T18:45:47+0530
+2023-06-11T13:15:50Z DEBUG Librepo version: 1.9.2 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1 zlib/1.2.11 brotli/1.0.6 libidn2/2.0.5 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.8.5/openssl/zlib nghttp2/1.33.0)
+2023-06-11T13:15:50Z DEBUG Current date: 2023-06-11T18:45:50+0530
+2023-06-11T13:15:51Z DEBUG lr_handle_perform: Using dir: /var/cache/dnf/dvd1-74ccd3ecc1adc485
+2023-06-11T13:15:51Z DEBUG lr_handle_perform: Using own SIGINT handler
+2023-06-11T13:15:51Z DEBUG lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+2023-06-11T13:15:51Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+2023-06-11T13:15:51Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+2023-06-11T13:15:51Z DEBUG lr_handle_perform: Downloading/Locating yum repo
+2023-06-11T13:15:51Z DEBUG lr_yum_use_local: Locating repo..
+2023-06-11T13:15:51Z DEBUG lr_yum_use_local_load_base: Parsing repomd.xml
+2023-06-11T13:15:51Z DEBUG lr_yum_use_local_load_base: Repomd revision: 1554366845
+2023-06-11T13:15:51Z DEBUG lr_yum_use_local: Repository was successfully located
+2023-06-11T13:15:51Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd1-74ccd3ecc1adc485/repodata/dff01e53affcda357b4a69555fdd827f5ab5a8405b8a6c72149d0f7ed068788e-primary.xml.gz (expected: dff01e53affcda357b4a69555fdd827f5ab5a8405b8a6c72149d0f7ed068788e [sha256])
+2023-06-11T13:15:51Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686464674]] dff01e53affcda357b4a69555fdd827f5ab5a8405b8a6c72149d0f7ed068788e
+2023-06-11T13:15:51Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T13:15:51Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd1-74ccd3ecc1adc485/repodata/fbe3be0537ef3170409bef493fceafed6466990d51fb1283f3ee9364e579e349-filelists.xml.gz (expected: fbe3be0537ef3170409bef493fceafed6466990d51fb1283f3ee9364e579e349 [sha256])
+2023-06-11T13:15:51Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143152]] fbe3be0537ef3170409bef493fceafed6466990d51fb1283f3ee9364e579e349
+2023-06-11T13:15:51Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T13:15:51Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd1-74ccd3ecc1adc485/repodata/b888cca8e62c8b7fb61ed7725a26ac205b2d5b652d61a074cdfceef2a85d3a1a-comps-AppStream.x86_64.xml.gz (expected: b888cca8e62c8b7fb61ed7725a26ac205b2d5b652d61a074cdfceef2a85d3a1a [sha256])
+2023-06-11T13:15:51Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143152]] b888cca8e62c8b7fb61ed7725a26ac205b2d5b652d61a074cdfceef2a85d3a1a
+2023-06-11T13:15:51Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T13:15:51Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd1-74ccd3ecc1adc485/repodata/98dae735a6cd9b91d1f8e1a1a91ef7bebf6e9c329b8d615c4b8ba4a6f509f2c8-modules.yaml.gz (expected: 98dae735a6cd9b91d1f8e1a1a91ef7bebf6e9c329b8d615c4b8ba4a6f509f2c8 [sha256])
+2023-06-11T13:15:51Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143152]] 98dae735a6cd9b91d1f8e1a1a91ef7bebf6e9c329b8d615c4b8ba4a6f509f2c8
+2023-06-11T13:15:51Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T13:15:51Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd1-74ccd3ecc1adc485/repodata/18b916195629c8cac7d07ece1dbe61ec2b48bb835ea72f5ecc837976a52d5726-productid.gz (expected: 18b916195629c8cac7d07ece1dbe61ec2b48bb835ea72f5ecc837976a52d5726 [sha256])
+2023-06-11T13:15:51Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143152]] 18b916195629c8cac7d07ece1dbe61ec2b48bb835ea72f5ecc837976a52d5726
+2023-06-11T13:15:51Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T13:15:51Z DEBUG lr_handle_perform: Restoring an old SIGINT handler
+2023-06-11T13:15:51Z DEBUG lr_handle_perform: Using dir: /var/cache/dnf/dvd2-cec9500bc1c897a5
+2023-06-11T13:15:51Z DEBUG lr_handle_perform: Using own SIGINT handler
+2023-06-11T13:15:51Z DEBUG lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+2023-06-11T13:15:51Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+2023-06-11T13:15:51Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+2023-06-11T13:15:51Z DEBUG lr_handle_perform: Downloading/Locating yum repo
+2023-06-11T13:15:51Z DEBUG lr_yum_use_local: Locating repo..
+2023-06-11T13:15:51Z DEBUG lr_yum_use_local_load_base: Parsing repomd.xml
+2023-06-11T13:15:51Z DEBUG lr_yum_use_local_load_base: Repomd revision: 1554366872
+2023-06-11T13:15:51Z DEBUG lr_yum_use_local: Repository was successfully located
+2023-06-11T13:15:51Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd2-cec9500bc1c897a5/repodata/e55e203db974accc40eb43d0233170115d7325579e6cf2639d25e9e3f28e1fe9-primary.xml.gz (expected: e55e203db974accc40eb43d0233170115d7325579e6cf2639d25e9e3f28e1fe9 [sha256])
+2023-06-11T13:15:51Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686464674]] e55e203db974accc40eb43d0233170115d7325579e6cf2639d25e9e3f28e1fe9
+2023-06-11T13:15:51Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T13:15:51Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd2-cec9500bc1c897a5/repodata/b7d59281dea39970cf87b46fd16010ebebd9ebbc895902869b0153d71d519424-filelists.xml.gz (expected: b7d59281dea39970cf87b46fd16010ebebd9ebbc895902869b0153d71d519424 [sha256])
+2023-06-11T13:15:51Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143162]] b7d59281dea39970cf87b46fd16010ebebd9ebbc895902869b0153d71d519424
+2023-06-11T13:15:51Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T13:15:51Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd2-cec9500bc1c897a5/repodata/4f66544f7a6c519281aa02bebae9440b20fec3e9eb526d65fd70c60c051384f0-comps-BaseOS.x86_64.xml.gz (expected: 4f66544f7a6c519281aa02bebae9440b20fec3e9eb526d65fd70c60c051384f0 [sha256])
+2023-06-11T13:15:51Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143162]] 4f66544f7a6c519281aa02bebae9440b20fec3e9eb526d65fd70c60c051384f0
+2023-06-11T13:15:51Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T13:15:51Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/dvd2-cec9500bc1c897a5/repodata/18b916195629c8cac7d07ece1dbe61ec2b48bb835ea72f5ecc837976a52d5726-productid.gz (expected: 18b916195629c8cac7d07ece1dbe61ec2b48bb835ea72f5ecc837976a52d5726 [sha256])
+2023-06-11T13:15:51Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143162]] 18b916195629c8cac7d07ece1dbe61ec2b48bb835ea72f5ecc837976a52d5726
+2023-06-11T13:15:51Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T13:15:51Z DEBUG lr_handle_perform: Restoring an old SIGINT handler
+2023-06-11T13:15:51Z DEBUG lr_handle_perform: Using dir: /var/cache/dnf/docker-091d8a9c23201250
+2023-06-11T13:15:51Z DEBUG lr_handle_perform: Using own SIGINT handler
+2023-06-11T13:15:51Z DEBUG lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+2023-06-11T13:15:51Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+2023-06-11T13:15:51Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+2023-06-11T13:15:51Z DEBUG lr_handle_perform: Downloading/Locating yum repo
+2023-06-11T13:15:51Z DEBUG lr_yum_use_local: Locating repo..
+2023-06-11T13:15:51Z DEBUG lr_yum_use_local_load_base: Parsing repomd.xml
+2023-06-11T13:15:51Z DEBUG lr_yum_use_local_load_base: Repomd revision: 1685087479
+2023-06-11T13:15:51Z DEBUG lr_yum_use_local: Repository was successfully located
+2023-06-11T13:15:51Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/docker-091d8a9c23201250/repodata/9e6c9013ba8d2988ce7221de7db38d40682d84ab61e0d428cfa28e40da9084ab-primary.xml.gz (expected: 9e6c9013ba8d2988ce7221de7db38d40682d84ab61e0d428cfa28e40da9084ab [sha256])
+2023-06-11T13:15:51Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686464676]] 9e6c9013ba8d2988ce7221de7db38d40682d84ab61e0d428cfa28e40da9084ab
+2023-06-11T13:15:51Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T13:15:51Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/docker-091d8a9c23201250/repodata/049536f35efe8f55dafce641e871286a233a8411652f10efbc32e4322a032963-filelists.xml.gz (expected: 049536f35efe8f55dafce641e871286a233a8411652f10efbc32e4322a032963 [sha256])
+2023-06-11T13:15:51Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143753]] 049536f35efe8f55dafce641e871286a233a8411652f10efbc32e4322a032963
+2023-06-11T13:15:51Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T13:15:51Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/docker-091d8a9c23201250/repodata/65c4f66e2808d328890505c3c2f13bb35a96f457d1c21a6346191c4dc07e6080-updateinfo.xml.gz (expected: 65c4f66e2808d328890505c3c2f13bb35a96f457d1c21a6346191c4dc07e6080 [sha256])
+2023-06-11T13:15:51Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143753]] 65c4f66e2808d328890505c3c2f13bb35a96f457d1c21a6346191c4dc07e6080
+2023-06-11T13:15:51Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T13:15:51Z DEBUG lr_handle_perform: Restoring an old SIGINT handler
+2023-06-11T13:15:51Z DEBUG lr_handle_perform: Using dir: /var/cache/dnf/jenkins-0919f06c02b07800
+2023-06-11T13:15:51Z DEBUG lr_handle_perform: Using own SIGINT handler
+2023-06-11T13:15:51Z DEBUG lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+2023-06-11T13:15:51Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+2023-06-11T13:15:51Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+2023-06-11T13:15:51Z DEBUG lr_handle_perform: Downloading/Locating yum repo
+2023-06-11T13:15:51Z DEBUG lr_yum_use_local: Locating repo..
+2023-06-11T13:15:51Z DEBUG lr_yum_use_local_load_base: Parsing repomd.xml
+2023-06-11T13:15:51Z DEBUG lr_yum_use_local_load_base: Repomd revision: 1685529331
+2023-06-11T13:15:51Z DEBUG lr_yum_use_local: Repository was successfully located
+2023-06-11T13:15:51Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/jenkins-0919f06c02b07800/repodata/af956fd36b73ba5411203f83aa76f61a73a0ad52436fa3a4633b20adb66e9b68-filelists.xml.gz (expected: af956fd36b73ba5411203f83aa76f61a73a0ad52436fa3a4633b20adb66e9b68 [sha256])
+2023-06-11T13:15:51Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686143173]] af956fd36b73ba5411203f83aa76f61a73a0ad52436fa3a4633b20adb66e9b68
+2023-06-11T13:15:51Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T13:15:51Z DEBUG lr_yum_check_checksum_of_md_record: Checking checksum of /var/cache/dnf/jenkins-0919f06c02b07800/repodata/34ebf8b4a2c22895a4421e6df590bd24d3a8aaf90505842836f10cd9b37a95f1-primary.xml.gz (expected: 34ebf8b4a2c22895a4421e6df590bd24d3a8aaf90505842836f10cd9b37a95f1 [sha256])
+2023-06-11T13:15:51Z DEBUG lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1686464678]] 34ebf8b4a2c22895a4421e6df590bd24d3a8aaf90505842836f10cd9b37a95f1
+2023-06-11T13:15:51Z DEBUG lr_yum_check_checksum_of_md_record: Checksum check - Passed
+2023-06-11T13:15:51Z DEBUG lr_handle_perform: Restoring an old SIGINT handler
+2023-06-11T13:15:51Z DEBUG lr_handle_perform: Using dir: /tmp/tmpdir.JFjyJF
+2023-06-11T13:15:51Z DEBUG lr_handle_perform: Using own SIGINT handler
+2023-06-11T13:15:51Z DEBUG lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+2023-06-11T13:15:51Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+2023-06-11T13:15:51Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+2023-06-11T13:15:51Z DEBUG lr_handle_perform: Downloading/Locating yum repo
+2023-06-11T13:15:51Z DEBUG lr_yum_download_remote: Downloading/Copying repo..
+2023-06-11T13:15:51Z DEBUG lr_yum_download_repomd: Downloading repomd.xml via mirrorlist
+2023-06-11T13:15:51Z DEBUG lr_download: Target: repodata/repomd.xml (-)
+2023-06-11T13:15:51Z DEBUG lr_prepare_lrmirrors: Preparing internal mirror list for handle id: 0x562c9b931c90
+2023-06-11T13:15:51Z DEBUG lr_prepare_lrmirrors: Mirror: file:///dvd/AppStream
+2023-06-11T13:15:51Z DEBUG select_next_target: Selecting mirror for: repodata/repomd.xml
+2023-06-11T13:15:51Z DEBUG prepare_next_transfer: URL: file:///dvd/AppStream/repodata/repomd.xml
+2023-06-11T13:15:51Z DEBUG lr_download: Downloading started
+2023-06-11T13:15:51Z DEBUG check_transfer_statuses: Transfer finished: repodata/repomd.xml (Effective url: file:///dvd/AppStream/repodata/repomd.xml)
+2023-06-11T13:15:51Z DEBUG lr_yum_download_remote: Parsing repomd.xml
+2023-06-11T13:15:51Z DEBUG 1554366845: Repomd revision: lr_yum_download_remote
+2023-06-11T13:15:51Z DEBUG lr_handle_perform: Restoring an old SIGINT handler
+2023-06-11T13:15:51Z DEBUG lr_handle_perform: Using dir: /tmp/tmpdir.puduSk
+2023-06-11T13:15:51Z DEBUG lr_handle_perform: Using own SIGINT handler
+2023-06-11T13:15:51Z DEBUG lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+2023-06-11T13:15:51Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+2023-06-11T13:15:51Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+2023-06-11T13:15:51Z DEBUG lr_handle_perform: Downloading/Locating yum repo
+2023-06-11T13:15:51Z DEBUG lr_yum_download_remote: Downloading/Copying repo..
+2023-06-11T13:15:51Z DEBUG lr_yum_download_repomd: Downloading repomd.xml via mirrorlist
+2023-06-11T13:15:51Z DEBUG lr_download: Target: repodata/repomd.xml (-)
+2023-06-11T13:15:51Z DEBUG lr_prepare_lrmirrors: Preparing internal mirror list for handle id: 0x562c9b931ea0
+2023-06-11T13:15:51Z DEBUG lr_prepare_lrmirrors: Mirror: file:///dvd/BaseOS
+2023-06-11T13:15:51Z DEBUG select_next_target: Selecting mirror for: repodata/repomd.xml
+2023-06-11T13:15:51Z DEBUG prepare_next_transfer: URL: file:///dvd/BaseOS/repodata/repomd.xml
+2023-06-11T13:15:51Z DEBUG lr_download: Downloading started
+2023-06-11T13:15:51Z DEBUG check_transfer_statuses: Transfer finished: repodata/repomd.xml (Effective url: file:///dvd/BaseOS/repodata/repomd.xml)
+2023-06-11T13:15:51Z DEBUG lr_yum_download_remote: Parsing repomd.xml
+2023-06-11T13:15:51Z DEBUG 1554366872: Repomd revision: lr_yum_download_remote
+2023-06-11T13:15:51Z DEBUG lr_handle_perform: Restoring an old SIGINT handler
+2023-06-11T13:15:52Z DEBUG lr_handle_perform: Using dir: /tmp/tmpdir.ZyFND0
+2023-06-11T13:15:52Z DEBUG lr_handle_perform: Using own SIGINT handler
+2023-06-11T13:15:52Z DEBUG lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+2023-06-11T13:15:52Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+2023-06-11T13:15:52Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+2023-06-11T13:15:52Z DEBUG lr_handle_perform: Downloading/Locating yum repo
+2023-06-11T13:15:52Z DEBUG lr_yum_download_remote: Downloading/Copying repo..
+2023-06-11T13:15:52Z DEBUG lr_yum_download_repomd: Downloading repomd.xml via mirrorlist
+2023-06-11T13:15:52Z DEBUG lr_download: Target: repodata/repomd.xml (-)
+2023-06-11T13:15:52Z DEBUG lr_prepare_lrmirrors: Preparing internal mirror list for handle id: 0x562c9b931ea0
+2023-06-11T13:15:52Z DEBUG lr_prepare_lrmirrors: Mirror: https://download.docker.com/linux/centos/7/x86_64/stable
+2023-06-11T13:15:52Z DEBUG select_next_target: Selecting mirror for: repodata/repomd.xml
+2023-06-11T13:15:52Z DEBUG prepare_next_transfer: URL: https://download.docker.com/linux/centos/7/x86_64/stable/repodata/repomd.xml
+2023-06-11T13:15:52Z DEBUG lr_download: Downloading started
+2023-06-11T13:15:52Z DEBUG check_transfer_statuses: Transfer finished: repodata/repomd.xml (Effective url: https://download.docker.com/linux/centos/7/x86_64/stable/repodata/repomd.xml)
+2023-06-11T13:15:52Z DEBUG check_transfer_statuses: Error during transfer: Curl error (6): Couldn't resolve host name for https://download.docker.com/linux/centos/7/x86_64/stable/repodata/repomd.xml [Could not resolve host: download.docker.com]
+2023-06-11T13:15:52Z DEBUG check_transfer_statuses: No more retries (tried: 1)
+2023-06-11T13:15:52Z DEBUG lr_download: Error while downloading: Curl error (6): Couldn't resolve host name for https://download.docker.com/linux/centos/7/x86_64/stable/repodata/repomd.xml [Could not resolve host: download.docker.com]
+2023-06-11T13:15:52Z DEBUG lr_yum_download_repomd: repomd.xml download was unsuccessful
+2023-06-11T13:15:52Z DEBUG lr_handle_perform: Restoring an old SIGINT handler
+2023-06-11T13:15:52Z DEBUG lr_handle_perform: Using dir: /tmp/tmpdir.7l2QpG
+2023-06-11T13:15:52Z DEBUG lr_handle_perform: Using own SIGINT handler
+2023-06-11T13:15:52Z DEBUG lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+2023-06-11T13:15:52Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+2023-06-11T13:15:52Z DEBUG lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+2023-06-11T13:15:52Z DEBUG lr_handle_perform: Downloading/Locating yum repo
+2023-06-11T13:15:52Z DEBUG lr_yum_download_remote: Downloading/Copying repo..
+2023-06-11T13:15:52Z DEBUG lr_yum_download_repomd: Downloading repomd.xml via mirrorlist
+2023-06-11T13:15:52Z DEBUG lr_download: Target: repodata/repomd.xml (-)
+2023-06-11T13:15:52Z DEBUG lr_prepare_lrmirrors: Preparing internal mirror list for handle id: 0x562c9b949f10
+2023-06-11T13:15:52Z DEBUG lr_prepare_lrmirrors: Mirror: http://pkg.jenkins.io/redhat-stable
+2023-06-11T13:15:52Z DEBUG select_next_target: Selecting mirror for: repodata/repomd.xml
+2023-06-11T13:15:52Z DEBUG prepare_next_transfer: URL: http://pkg.jenkins.io/redhat-stable/repodata/repomd.xml
+2023-06-11T13:15:52Z DEBUG lr_download: Downloading started
+2023-06-11T13:15:52Z DEBUG check_transfer_statuses: Transfer finished: repodata/repomd.xml (Effective url: http://pkg.jenkins.io/redhat-stable/repodata/repomd.xml)
+2023-06-11T13:15:52Z DEBUG check_transfer_statuses: Error during transfer: Curl error (6): Couldn't resolve host name for http://pkg.jenkins.io/redhat-stable/repodata/repomd.xml [Could not resolve host: pkg.jenkins.io]
+2023-06-11T13:15:52Z DEBUG check_transfer_statuses: No more retries (tried: 1)
+2023-06-11T13:15:52Z DEBUG lr_download: Error while downloading: Curl error (6): Couldn't resolve host name for http://pkg.jenkins.io/redhat-stable/repodata/repomd.xml [Could not resolve host: pkg.jenkins.io]
+2023-06-11T13:15:52Z DEBUG lr_yum_download_repomd: repomd.xml download was unsuccessful
+2023-06-11T13:15:52Z DEBUG lr_handle_perform: Restoring an old SIGINT handler
+2023-06-11T13:56:41Z DEBUG Librepo version: 1.9.2 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1 zlib/1.2.11 brotli/1.0.6 libidn2/2.0.5 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.8.5/openssl/zlib nghttp2/1.33.0)
+2023-06-11T13:56:41Z DEBUG Current date: 2023-06-11T19:26:41+0530
+2023-06-11T13:56:43Z DEBUG Librepo version: 1.9.2 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1 zlib/1.2.11 brotli/1.0.6 libidn2/2.0.5 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.8.5/openssl/zlib nghttp2/1.33.0)
+2023-06-11T13:56:43Z DEBUG Current date: 2023-06-11T19:26:43+0530
+2023-06-13T05:04:29Z DEBUG Librepo version: 1.9.2 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1 zlib/1.2.11 brotli/1.0.6 libidn2/2.0.5 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.8.5/openssl/zlib nghttp2/1.33.0)
+2023-06-13T05:04:29Z DEBUG Current date: 2023-06-13T10:34:29+0530
+2023-06-13T05:04:32Z DEBUG Librepo version: 1.9.2 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1 zlib/1.2.11 brotli/1.0.6 libidn2/2.0.5 libpsl/0.20.2 (+libidn2/2.0.5) libssh/0.8.5/openssl/zlib nghttp2/1.33.0)
+2023-06-13T05:04:32Z DEBUG Current date: 2023-06-13T10:34:32+0530

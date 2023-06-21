@@ -1,0 +1,357 @@
+2023-06-11T06:03:28Z INFO --- logging initialized ---
+2023-06-11T06:03:28Z DDEBUG timer: config: 11 ms
+2023-06-11T06:03:29Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, product-id, repoclosure, repodiff, repograph, repomanage, reposync, subscription-manager, uploadprofile
+2023-06-11T06:03:29Z INFO Updating Subscription Management repositories.
+2023-06-11T06:03:29Z INFO Unable to read consumer identity
+2023-06-11T06:03:29Z INFO This system is not registered to Red Hat Subscription Management. You can use subscription-manager to register.
+2023-06-11T06:03:29Z DEBUG DNF version: 4.0.9
+2023-06-11T06:03:29Z DDEBUG Command: dnf makecache --timer 
+2023-06-11T06:03:29Z DDEBUG Installroot: /
+2023-06-11T06:03:29Z DDEBUG Releasever: 8
+2023-06-11T06:03:29Z DEBUG cachedir: /var/cache/dnf
+2023-06-11T06:03:29Z DDEBUG Base command: makecache
+2023-06-11T06:03:29Z DDEBUG Extra commands: ['makecache', '--timer']
+2023-06-11T06:03:29Z WARNING Repository 'dvd1' is missing name in configuration, using id.
+2023-06-11T06:03:29Z WARNING Repository 'dvd2' is missing name in configuration, using id.
+2023-06-11T06:03:29Z WARNING Repository 'docker' is missing name in configuration, using id.
+2023-06-11T06:03:29Z DEBUG Making cache files for all metadata files.
+2023-06-11T06:03:29Z INFO Metadata timer caching disabled when running on metered connection.
+2023-06-11T06:03:29Z DDEBUG Cleaning up.
+2023-06-11T06:24:31Z INFO --- logging initialized ---
+2023-06-11T06:24:31Z DDEBUG timer: config: 8 ms
+2023-06-11T06:24:32Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, product-id, repoclosure, repodiff, repograph, repomanage, reposync, subscription-manager, uploadprofile
+2023-06-11T06:24:33Z INFO Updating Subscription Management repositories.
+2023-06-11T06:24:33Z INFO Unable to read consumer identity
+2023-06-11T06:24:33Z INFO This system is not registered to Red Hat Subscription Management. You can use subscription-manager to register.
+2023-06-11T06:24:33Z DEBUG DNF version: 4.0.9
+2023-06-11T06:24:33Z DDEBUG Command: dnf install httpd 
+2023-06-11T06:24:33Z DDEBUG Installroot: /
+2023-06-11T06:24:33Z DDEBUG Releasever: 8
+2023-06-11T06:24:33Z DEBUG cachedir: /var/cache/dnf
+2023-06-11T06:24:33Z DDEBUG Base command: install
+2023-06-11T06:24:33Z DDEBUG Extra commands: ['install', 'httpd']
+2023-06-11T06:24:33Z WARNING Repository 'dvd1' is missing name in configuration, using id.
+2023-06-11T06:24:33Z WARNING Repository 'dvd2' is missing name in configuration, using id.
+2023-06-11T06:24:33Z WARNING Repository 'docker' is missing name in configuration, using id.
+2023-06-11T06:24:34Z DEBUG reviving: 'dvd1' can be revived - repomd matches.
+2023-06-11T06:24:34Z DEBUG not found other for: 
+2023-06-11T06:24:34Z DEBUG not found deltainfo for: 
+2023-06-11T06:24:34Z DEBUG not found updateinfo for: 
+2023-06-11T06:24:34Z DEBUG dvd1: using metadata from Thu 04 Apr 2019 02:04:17 PM IST.
+2023-06-11T06:24:34Z DEBUG reviving: 'dvd2' can be revived - repomd matches.
+2023-06-11T06:24:34Z DEBUG not found other for: 
+2023-06-11T06:24:34Z DEBUG not found modules for: 
+2023-06-11T06:24:34Z DEBUG not found deltainfo for: 
+2023-06-11T06:24:34Z DEBUG not found updateinfo for: 
+2023-06-11T06:24:35Z DEBUG dvd2: using metadata from Thu 04 Apr 2019 02:04:36 PM IST.
+2023-06-11T06:24:36Z DEBUG reviving: 'docker' can be revived - repomd matches.
+2023-06-11T06:24:36Z DEBUG not found other for: 
+2023-06-11T06:24:36Z DEBUG not found modules for: 
+2023-06-11T06:24:36Z DEBUG not found deltainfo for: 
+2023-06-11T06:24:36Z DEBUG docker: using metadata from Fri 26 May 2023 01:21:19 PM IST.
+2023-06-11T06:24:38Z DEBUG reviving: 'jenkins' can be revived - repomd matches.
+2023-06-11T06:24:38Z DEBUG not found other for: Jenkins-stable
+2023-06-11T06:24:38Z DEBUG not found modules for: Jenkins-stable
+2023-06-11T06:24:38Z DEBUG not found deltainfo for: Jenkins-stable
+2023-06-11T06:24:38Z DEBUG not found updateinfo for: Jenkins-stable
+2023-06-11T06:24:38Z DEBUG jenkins: using metadata from Wed 31 May 2023 04:05:32 PM IST.
+2023-06-11T06:24:40Z DDEBUG timer: sack setup: 7023 ms
+2023-06-11T06:24:40Z DEBUG Completion plugin: Generating completion cache...
+2023-06-11T06:24:40Z INFO Package httpd-2.4.37-10.module+el8+2764+7127e69e.x86_64 is already installed.
+2023-06-11T06:24:40Z DEBUG --> Starting dependency resolution
+2023-06-11T06:24:41Z DEBUG --> Finished dependency resolution
+2023-06-11T06:24:41Z DDEBUG timer: depsolve: 757 ms
+2023-06-11T06:24:41Z INFO Dependencies resolved.
+2023-06-11T06:24:41Z INFO Nothing to do.
+2023-06-11T06:24:41Z INFO Complete!
+2023-06-11T06:24:41Z DDEBUG Cleaning up.
+2023-06-11T06:30:17Z INFO --- logging initialized ---
+2023-06-11T06:30:17Z DDEBUG timer: config: 8 ms
+2023-06-11T06:30:18Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, product-id, repoclosure, repodiff, repograph, repomanage, reposync, subscription-manager, uploadprofile
+2023-06-11T06:30:18Z INFO Updating Subscription Management repositories.
+2023-06-11T06:30:18Z INFO Unable to read consumer identity
+2023-06-11T06:30:18Z INFO This system is not registered to Red Hat Subscription Management. You can use subscription-manager to register.
+2023-06-11T06:30:18Z DEBUG DNF version: 4.0.9
+2023-06-11T06:30:18Z DDEBUG Command: dnf install httpd 
+2023-06-11T06:30:18Z DDEBUG Installroot: /
+2023-06-11T06:30:18Z DDEBUG Releasever: 8
+2023-06-11T06:30:18Z DEBUG cachedir: /var/cache/dnf
+2023-06-11T06:30:18Z DDEBUG Base command: install
+2023-06-11T06:30:18Z DDEBUG Extra commands: ['install', 'httpd']
+2023-06-11T06:30:18Z WARNING Repository 'dvd1' is missing name in configuration, using id.
+2023-06-11T06:30:18Z WARNING Repository 'dvd2' is missing name in configuration, using id.
+2023-06-11T06:30:18Z WARNING Repository 'docker' is missing name in configuration, using id.
+2023-06-11T06:30:19Z DEBUG repo: using cache for: dvd1
+2023-06-11T06:30:19Z DEBUG not found other for: 
+2023-06-11T06:30:19Z DEBUG not found deltainfo for: 
+2023-06-11T06:30:19Z DEBUG not found updateinfo for: 
+2023-06-11T06:30:19Z DEBUG dvd1: using metadata from Thu 04 Apr 2019 02:04:17 PM IST.
+2023-06-11T06:30:19Z DEBUG repo: using cache for: dvd2
+2023-06-11T06:30:19Z DEBUG not found other for: 
+2023-06-11T06:30:19Z DEBUG not found modules for: 
+2023-06-11T06:30:19Z DEBUG not found deltainfo for: 
+2023-06-11T06:30:19Z DEBUG not found updateinfo for: 
+2023-06-11T06:30:19Z DEBUG dvd2: using metadata from Thu 04 Apr 2019 02:04:36 PM IST.
+2023-06-11T06:30:19Z DEBUG repo: using cache for: docker
+2023-06-11T06:30:19Z DEBUG not found other for: 
+2023-06-11T06:30:19Z DEBUG not found modules for: 
+2023-06-11T06:30:19Z DEBUG not found deltainfo for: 
+2023-06-11T06:30:19Z DEBUG docker: using metadata from Fri 26 May 2023 01:21:19 PM IST.
+2023-06-11T06:30:19Z DEBUG repo: using cache for: jenkins
+2023-06-11T06:30:19Z DEBUG not found other for: Jenkins-stable
+2023-06-11T06:30:19Z DEBUG not found modules for: Jenkins-stable
+2023-06-11T06:30:19Z DEBUG not found deltainfo for: Jenkins-stable
+2023-06-11T06:30:19Z DEBUG not found updateinfo for: Jenkins-stable
+2023-06-11T06:30:19Z DEBUG jenkins: using metadata from Wed 31 May 2023 04:05:32 PM IST.
+2023-06-11T06:30:19Z INFO Last metadata expiration check: 0:05:41 ago on Sun 11 Jun 2023 11:54:38 AM IST.
+2023-06-11T06:30:21Z DDEBUG timer: sack setup: 2447 ms
+2023-06-11T06:30:21Z DEBUG Completion plugin: Generating completion cache...
+2023-06-11T06:30:21Z INFO Package httpd-2.4.37-10.module+el8+2764+7127e69e.x86_64 is already installed.
+2023-06-11T06:30:21Z DEBUG --> Starting dependency resolution
+2023-06-11T06:30:21Z DEBUG --> Finished dependency resolution
+2023-06-11T06:30:21Z DDEBUG timer: depsolve: 475 ms
+2023-06-11T06:30:21Z INFO Dependencies resolved.
+2023-06-11T06:30:21Z INFO Nothing to do.
+2023-06-11T06:30:21Z INFO Complete!
+2023-06-11T06:30:21Z DDEBUG Cleaning up.
+2023-06-11T06:31:22Z INFO --- logging initialized ---
+2023-06-11T06:31:22Z DDEBUG timer: config: 8 ms
+2023-06-11T06:31:23Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, product-id, repoclosure, repodiff, repograph, repomanage, reposync, subscription-manager, uploadprofile
+2023-06-11T06:31:23Z INFO Updating Subscription Management repositories.
+2023-06-11T06:31:23Z INFO Unable to read consumer identity
+2023-06-11T06:31:23Z INFO This system is not registered to Red Hat Subscription Management. You can use subscription-manager to register.
+2023-06-11T06:31:23Z DEBUG DNF version: 4.0.9
+2023-06-11T06:31:23Z DDEBUG Command: dnf install httpd 
+2023-06-11T06:31:23Z DDEBUG Installroot: /
+2023-06-11T06:31:23Z DDEBUG Releasever: 8
+2023-06-11T06:31:23Z DEBUG cachedir: /var/cache/dnf
+2023-06-11T06:31:23Z DDEBUG Base command: install
+2023-06-11T06:31:23Z DDEBUG Extra commands: ['install', 'httpd']
+2023-06-11T06:31:23Z WARNING Repository 'dvd1' is missing name in configuration, using id.
+2023-06-11T06:31:23Z WARNING Repository 'dvd2' is missing name in configuration, using id.
+2023-06-11T06:31:23Z WARNING Repository 'docker' is missing name in configuration, using id.
+2023-06-11T06:31:24Z DEBUG repo: using cache for: dvd1
+2023-06-11T06:31:24Z DEBUG not found other for: 
+2023-06-11T06:31:24Z DEBUG not found deltainfo for: 
+2023-06-11T06:31:24Z DEBUG not found updateinfo for: 
+2023-06-11T06:31:24Z DEBUG dvd1: using metadata from Thu 04 Apr 2019 02:04:17 PM IST.
+2023-06-11T06:31:24Z DEBUG repo: using cache for: dvd2
+2023-06-11T06:31:24Z DEBUG not found other for: 
+2023-06-11T06:31:24Z DEBUG not found modules for: 
+2023-06-11T06:31:24Z DEBUG not found deltainfo for: 
+2023-06-11T06:31:24Z DEBUG not found updateinfo for: 
+2023-06-11T06:31:24Z DEBUG dvd2: using metadata from Thu 04 Apr 2019 02:04:36 PM IST.
+2023-06-11T06:31:24Z DEBUG repo: using cache for: docker
+2023-06-11T06:31:24Z DEBUG not found other for: 
+2023-06-11T06:31:24Z DEBUG not found modules for: 
+2023-06-11T06:31:24Z DEBUG not found deltainfo for: 
+2023-06-11T06:31:24Z DEBUG docker: using metadata from Fri 26 May 2023 01:21:19 PM IST.
+2023-06-11T06:31:24Z DEBUG repo: using cache for: jenkins
+2023-06-11T06:31:24Z DEBUG not found other for: Jenkins-stable
+2023-06-11T06:31:24Z DEBUG not found modules for: Jenkins-stable
+2023-06-11T06:31:24Z DEBUG not found deltainfo for: Jenkins-stable
+2023-06-11T06:31:24Z DEBUG not found updateinfo for: Jenkins-stable
+2023-06-11T06:31:24Z DEBUG jenkins: using metadata from Wed 31 May 2023 04:05:32 PM IST.
+2023-06-11T06:31:24Z INFO Last metadata expiration check: 0:06:46 ago on Sun 11 Jun 2023 11:54:38 AM IST.
+2023-06-11T06:31:25Z DDEBUG timer: sack setup: 2176 ms
+2023-06-11T06:31:25Z DEBUG Completion plugin: Generating completion cache...
+2023-06-11T06:31:26Z INFO Package httpd-2.4.37-10.module+el8+2764+7127e69e.x86_64 is already installed.
+2023-06-11T06:31:26Z DEBUG --> Starting dependency resolution
+2023-06-11T06:31:26Z DEBUG --> Finished dependency resolution
+2023-06-11T06:31:26Z DDEBUG timer: depsolve: 473 ms
+2023-06-11T06:31:26Z INFO Dependencies resolved.
+2023-06-11T06:31:26Z INFO Nothing to do.
+2023-06-11T06:31:26Z INFO Complete!
+2023-06-11T06:31:26Z DDEBUG Cleaning up.
+2023-06-11T06:57:58Z INFO --- logging initialized ---
+2023-06-11T06:57:58Z DDEBUG timer: config: 250 ms
+2023-06-11T06:58:02Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, product-id, repoclosure, repodiff, repograph, repomanage, reposync, subscription-manager, uploadprofile
+2023-06-11T06:58:02Z INFO Updating Subscription Management repositories.
+2023-06-11T06:58:02Z INFO Unable to read consumer identity
+2023-06-11T06:58:02Z INFO This system is not registered to Red Hat Subscription Management. You can use subscription-manager to register.
+2023-06-11T06:58:02Z DEBUG DNF version: 4.0.9
+2023-06-11T06:58:02Z DDEBUG Command: dnf makecache --timer 
+2023-06-11T06:58:02Z DDEBUG Installroot: /
+2023-06-11T06:58:02Z DDEBUG Releasever: 8
+2023-06-11T06:58:02Z DEBUG cachedir: /var/cache/dnf
+2023-06-11T06:58:02Z DDEBUG Base command: makecache
+2023-06-11T06:58:02Z DDEBUG Extra commands: ['makecache', '--timer']
+2023-06-11T06:58:02Z WARNING Repository 'dvd1' is missing name in configuration, using id.
+2023-06-11T06:58:02Z WARNING Repository 'dvd2' is missing name in configuration, using id.
+2023-06-11T06:58:02Z WARNING Repository 'docker' is missing name in configuration, using id.
+2023-06-11T06:58:02Z DEBUG Making cache files for all metadata files.
+2023-06-11T06:58:02Z INFO Metadata timer caching disabled when running on metered connection.
+2023-06-11T06:58:02Z DDEBUG Cleaning up.
+2023-06-11T07:58:09Z INFO --- logging initialized ---
+2023-06-11T07:58:09Z DDEBUG timer: config: 9 ms
+2023-06-11T07:58:10Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, product-id, repoclosure, repodiff, repograph, repomanage, reposync, subscription-manager, uploadprofile
+2023-06-11T07:58:10Z INFO Updating Subscription Management repositories.
+2023-06-11T07:58:10Z INFO Unable to read consumer identity
+2023-06-11T07:58:10Z INFO This system is not registered to Red Hat Subscription Management. You can use subscription-manager to register.
+2023-06-11T07:58:10Z DEBUG DNF version: 4.0.9
+2023-06-11T07:58:10Z DDEBUG Command: dnf makecache --timer 
+2023-06-11T07:58:10Z DDEBUG Installroot: /
+2023-06-11T07:58:10Z DDEBUG Releasever: 8
+2023-06-11T07:58:10Z DEBUG cachedir: /var/cache/dnf
+2023-06-11T07:58:10Z DDEBUG Base command: makecache
+2023-06-11T07:58:10Z DDEBUG Extra commands: ['makecache', '--timer']
+2023-06-11T07:58:10Z WARNING Repository 'dvd1' is missing name in configuration, using id.
+2023-06-11T07:58:10Z WARNING Repository 'dvd2' is missing name in configuration, using id.
+2023-06-11T07:58:10Z WARNING Repository 'docker' is missing name in configuration, using id.
+2023-06-11T07:58:10Z DEBUG Making cache files for all metadata files.
+2023-06-11T07:58:10Z INFO Metadata timer caching disabled when running on metered connection.
+2023-06-11T07:58:10Z DDEBUG Cleaning up.
+2023-06-11T08:58:12Z INFO --- logging initialized ---
+2023-06-11T08:58:12Z DDEBUG timer: config: 9 ms
+2023-06-11T08:58:13Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, product-id, repoclosure, repodiff, repograph, repomanage, reposync, subscription-manager, uploadprofile
+2023-06-11T08:58:13Z INFO Updating Subscription Management repositories.
+2023-06-11T08:58:13Z INFO Unable to read consumer identity
+2023-06-11T08:58:13Z INFO This system is not registered to Red Hat Subscription Management. You can use subscription-manager to register.
+2023-06-11T08:58:13Z DEBUG DNF version: 4.0.9
+2023-06-11T08:58:13Z DDEBUG Command: dnf makecache --timer 
+2023-06-11T08:58:13Z DDEBUG Installroot: /
+2023-06-11T08:58:13Z DDEBUG Releasever: 8
+2023-06-11T08:58:13Z DEBUG cachedir: /var/cache/dnf
+2023-06-11T08:58:13Z DDEBUG Base command: makecache
+2023-06-11T08:58:13Z DDEBUG Extra commands: ['makecache', '--timer']
+2023-06-11T08:58:13Z WARNING Repository 'dvd1' is missing name in configuration, using id.
+2023-06-11T08:58:13Z WARNING Repository 'dvd2' is missing name in configuration, using id.
+2023-06-11T08:58:13Z WARNING Repository 'docker' is missing name in configuration, using id.
+2023-06-11T08:58:13Z DEBUG Making cache files for all metadata files.
+2023-06-11T08:58:13Z INFO Metadata timer caching disabled when running on metered connection.
+2023-06-11T08:58:13Z DDEBUG Cleaning up.
+2023-06-11T10:23:00Z INFO --- logging initialized ---
+2023-06-11T10:23:00Z DDEBUG timer: config: 150 ms
+2023-06-11T10:23:03Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, product-id, repoclosure, repodiff, repograph, repomanage, reposync, subscription-manager, uploadprofile
+2023-06-11T10:23:03Z INFO Updating Subscription Management repositories.
+2023-06-11T10:23:03Z INFO Unable to read consumer identity
+2023-06-11T10:23:03Z INFO This system is not registered to Red Hat Subscription Management. You can use subscription-manager to register.
+2023-06-11T10:23:03Z DEBUG DNF version: 4.0.9
+2023-06-11T10:23:03Z DDEBUG Command: dnf makecache --timer 
+2023-06-11T10:23:03Z DDEBUG Installroot: /
+2023-06-11T10:23:03Z DDEBUG Releasever: 8
+2023-06-11T10:23:03Z DEBUG cachedir: /var/cache/dnf
+2023-06-11T10:23:03Z DDEBUG Base command: makecache
+2023-06-11T10:23:03Z DDEBUG Extra commands: ['makecache', '--timer']
+2023-06-11T10:23:03Z WARNING Repository 'dvd1' is missing name in configuration, using id.
+2023-06-11T10:23:03Z WARNING Repository 'dvd2' is missing name in configuration, using id.
+2023-06-11T10:23:03Z WARNING Repository 'docker' is missing name in configuration, using id.
+2023-06-11T10:23:03Z DEBUG Making cache files for all metadata files.
+2023-06-11T10:23:03Z INFO Metadata timer caching disabled when running on metered connection.
+2023-06-11T10:23:03Z DDEBUG Cleaning up.
+2023-06-11T11:23:08Z INFO --- logging initialized ---
+2023-06-11T11:23:08Z DDEBUG timer: config: 8 ms
+2023-06-11T11:23:09Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, product-id, repoclosure, repodiff, repograph, repomanage, reposync, subscription-manager, uploadprofile
+2023-06-11T11:23:09Z INFO Updating Subscription Management repositories.
+2023-06-11T11:23:09Z INFO Unable to read consumer identity
+2023-06-11T11:23:09Z INFO This system is not registered to Red Hat Subscription Management. You can use subscription-manager to register.
+2023-06-11T11:23:09Z DEBUG DNF version: 4.0.9
+2023-06-11T11:23:09Z DDEBUG Command: dnf makecache --timer 
+2023-06-11T11:23:09Z DDEBUG Installroot: /
+2023-06-11T11:23:09Z DDEBUG Releasever: 8
+2023-06-11T11:23:09Z DEBUG cachedir: /var/cache/dnf
+2023-06-11T11:23:09Z DDEBUG Base command: makecache
+2023-06-11T11:23:09Z DDEBUG Extra commands: ['makecache', '--timer']
+2023-06-11T11:23:09Z WARNING Repository 'dvd1' is missing name in configuration, using id.
+2023-06-11T11:23:09Z WARNING Repository 'dvd2' is missing name in configuration, using id.
+2023-06-11T11:23:09Z WARNING Repository 'docker' is missing name in configuration, using id.
+2023-06-11T11:23:09Z DEBUG Making cache files for all metadata files.
+2023-06-11T11:23:09Z INFO Metadata timer caching disabled when running on metered connection.
+2023-06-11T11:23:09Z DDEBUG Cleaning up.
+2023-06-11T12:23:14Z INFO --- logging initialized ---
+2023-06-11T12:23:14Z DDEBUG timer: config: 8 ms
+2023-06-11T12:23:15Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, product-id, repoclosure, repodiff, repograph, repomanage, reposync, subscription-manager, uploadprofile
+2023-06-11T12:23:15Z INFO Updating Subscription Management repositories.
+2023-06-11T12:23:15Z INFO Unable to read consumer identity
+2023-06-11T12:23:15Z INFO This system is not registered to Red Hat Subscription Management. You can use subscription-manager to register.
+2023-06-11T12:23:15Z DEBUG DNF version: 4.0.9
+2023-06-11T12:23:15Z DDEBUG Command: dnf makecache --timer 
+2023-06-11T12:23:15Z DDEBUG Installroot: /
+2023-06-11T12:23:15Z DDEBUG Releasever: 8
+2023-06-11T12:23:15Z DEBUG cachedir: /var/cache/dnf
+2023-06-11T12:23:15Z DDEBUG Base command: makecache
+2023-06-11T12:23:15Z DDEBUG Extra commands: ['makecache', '--timer']
+2023-06-11T12:23:15Z WARNING Repository 'dvd1' is missing name in configuration, using id.
+2023-06-11T12:23:15Z WARNING Repository 'dvd2' is missing name in configuration, using id.
+2023-06-11T12:23:15Z WARNING Repository 'docker' is missing name in configuration, using id.
+2023-06-11T12:23:15Z DEBUG Making cache files for all metadata files.
+2023-06-11T12:23:15Z INFO Metadata timer caching disabled when running on metered connection.
+2023-06-11T12:23:15Z DDEBUG Cleaning up.
+2023-06-11T13:15:47Z INFO --- logging initialized ---
+2023-06-11T13:15:47Z DDEBUG timer: config: 293 ms
+2023-06-11T13:15:51Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, product-id, repoclosure, repodiff, repograph, repomanage, reposync, subscription-manager, uploadprofile
+2023-06-11T13:15:51Z INFO Updating Subscription Management repositories.
+2023-06-11T13:15:51Z INFO Unable to read consumer identity
+2023-06-11T13:15:51Z INFO This system is not registered to Red Hat Subscription Management. You can use subscription-manager to register.
+2023-06-11T13:15:51Z DEBUG DNF version: 4.0.9
+2023-06-11T13:15:51Z DDEBUG Command: dnf makecache --timer 
+2023-06-11T13:15:51Z DDEBUG Installroot: /
+2023-06-11T13:15:51Z DDEBUG Releasever: 8
+2023-06-11T13:15:51Z DEBUG cachedir: /var/cache/dnf
+2023-06-11T13:15:51Z DDEBUG Base command: makecache
+2023-06-11T13:15:51Z DDEBUG Extra commands: ['makecache', '--timer']
+2023-06-11T13:15:51Z WARNING Repository 'dvd1' is missing name in configuration, using id.
+2023-06-11T13:15:51Z WARNING Repository 'dvd2' is missing name in configuration, using id.
+2023-06-11T13:15:51Z WARNING Repository 'docker' is missing name in configuration, using id.
+2023-06-11T13:15:51Z DEBUG Making cache files for all metadata files.
+2023-06-11T13:15:51Z DEBUG dvd1: has expired and will be refreshed.
+2023-06-11T13:15:51Z DEBUG dvd2: has expired and will be refreshed.
+2023-06-11T13:15:51Z DEBUG docker: has expired and will be refreshed.
+2023-06-11T13:15:51Z DEBUG jenkins: has expired and will be refreshed.
+2023-06-11T13:15:51Z DEBUG reviving: 'dvd1' can be revived - repomd matches.
+2023-06-11T13:15:51Z DEBUG not found other for: 
+2023-06-11T13:15:51Z DEBUG not found deltainfo for: 
+2023-06-11T13:15:51Z DEBUG not found updateinfo for: 
+2023-06-11T13:15:51Z DEBUG dvd1: using metadata from Thu 04 Apr 2019 02:04:17 PM IST.
+2023-06-11T13:15:51Z DEBUG reviving: 'dvd2' can be revived - repomd matches.
+2023-06-11T13:15:51Z DEBUG not found other for: 
+2023-06-11T13:15:51Z DEBUG not found modules for: 
+2023-06-11T13:15:51Z DEBUG not found deltainfo for: 
+2023-06-11T13:15:51Z DEBUG not found updateinfo for: 
+2023-06-11T13:15:52Z DEBUG dvd2: using metadata from Thu 04 Apr 2019 02:04:36 PM IST.
+2023-06-11T13:15:52Z DEBUG Cannot download 'https://download.docker.com/linux/centos/7/x86_64/stable': Cannot download repomd.xml: Curl error (6): Couldn't resolve host name for https://download.docker.com/linux/centos/7/x86_64/stable/repodata/repomd.xml [Could not resolve host: download.docker.com].
+2023-06-11T13:15:52Z DEBUG Cannot download 'http://pkg.jenkins.io/redhat-stable': Cannot download repomd.xml: Curl error (6): Couldn't resolve host name for http://pkg.jenkins.io/redhat-stable/repodata/repomd.xml [Could not resolve host: pkg.jenkins.io].
+2023-06-11T13:15:52Z WARNING Failed to synchronize cache for repo 'docker', ignoring this repo.
+2023-06-11T13:15:52Z WARNING Failed to synchronize cache for repo 'jenkins', ignoring this repo.
+2023-06-11T13:15:54Z DDEBUG timer: sack setup: 2403 ms
+2023-06-11T13:15:54Z DEBUG Completion plugin: Generating completion cache...
+2023-06-11T13:15:54Z INFO Metadata cache created.
+2023-06-11T13:15:54Z DDEBUG Cleaning up.
+2023-06-11T13:56:41Z INFO --- logging initialized ---
+2023-06-11T13:56:41Z DDEBUG timer: config: 267 ms
+2023-06-11T13:56:44Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, product-id, repoclosure, repodiff, repograph, repomanage, reposync, subscription-manager, uploadprofile
+2023-06-11T13:56:45Z INFO Updating Subscription Management repositories.
+2023-06-11T13:56:45Z INFO Unable to read consumer identity
+2023-06-11T13:56:45Z INFO This system is not registered to Red Hat Subscription Management. You can use subscription-manager to register.
+2023-06-11T13:56:45Z DEBUG DNF version: 4.0.9
+2023-06-11T13:56:45Z DDEBUG Command: dnf makecache --timer 
+2023-06-11T13:56:45Z DDEBUG Installroot: /
+2023-06-11T13:56:45Z DDEBUG Releasever: 8
+2023-06-11T13:56:45Z DEBUG cachedir: /var/cache/dnf
+2023-06-11T13:56:45Z DDEBUG Base command: makecache
+2023-06-11T13:56:45Z DDEBUG Extra commands: ['makecache', '--timer']
+2023-06-11T13:56:45Z WARNING Repository 'dvd1' is missing name in configuration, using id.
+2023-06-11T13:56:45Z WARNING Repository 'dvd2' is missing name in configuration, using id.
+2023-06-11T13:56:45Z WARNING Repository 'docker' is missing name in configuration, using id.
+2023-06-11T13:56:45Z DEBUG Making cache files for all metadata files.
+2023-06-11T13:56:45Z INFO Metadata timer caching disabled when running on metered connection.
+2023-06-11T13:56:45Z DDEBUG Cleaning up.
+2023-06-13T05:04:29Z INFO --- logging initialized ---
+2023-06-13T05:04:29Z DDEBUG timer: config: 263 ms
+2023-06-13T05:04:33Z DEBUG Loaded plugins: builddep, changelog, config-manager, copr, debug, debuginfo-install, download, generate_completion_cache, needs-restarting, playground, product-id, repoclosure, repodiff, repograph, repomanage, reposync, subscription-manager, uploadprofile
+2023-06-13T05:04:33Z INFO Updating Subscription Management repositories.
+2023-06-13T05:04:33Z INFO Unable to read consumer identity
+2023-06-13T05:04:33Z INFO This system is not registered to Red Hat Subscription Management. You can use subscription-manager to register.
+2023-06-13T05:04:33Z DEBUG DNF version: 4.0.9
+2023-06-13T05:04:33Z DDEBUG Command: dnf makecache --timer 
+2023-06-13T05:04:33Z DDEBUG Installroot: /
+2023-06-13T05:04:33Z DDEBUG Releasever: 8
+2023-06-13T05:04:33Z DEBUG cachedir: /var/cache/dnf
+2023-06-13T05:04:33Z DDEBUG Base command: makecache
+2023-06-13T05:04:33Z DDEBUG Extra commands: ['makecache', '--timer']
+2023-06-13T05:04:33Z WARNING Repository 'dvd1' is missing name in configuration, using id.
+2023-06-13T05:04:33Z WARNING Repository 'dvd2' is missing name in configuration, using id.
+2023-06-13T05:04:33Z WARNING Repository 'docker' is missing name in configuration, using id.
+2023-06-13T05:04:33Z DEBUG Making cache files for all metadata files.
+2023-06-13T05:04:33Z INFO Metadata timer caching disabled when running on metered connection.
+2023-06-13T05:04:33Z DDEBUG Cleaning up.

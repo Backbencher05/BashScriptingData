@@ -1,0 +1,30 @@
+#!/bin/bash
+
+#? : give the status of the command weather success or failed 
+
+#success - 0(zero)
+#failed - other than 0
+
+
+package=httpd
+
+yum install $package
+
+echo "The exit code for the package install is: $?"
+
+if [ $? -eq 0 ]
+then
+	echo "The installation of $package was sucessfull."
+	echo "The new command is available here:"
+	which $package
+else
+	echo "$package failed the install"
+
+fi
+
+
+
+#  exit 23 : forcefully giving exit code
+
+
+

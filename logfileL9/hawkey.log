@@ -1,0 +1,98 @@
+INFO Jun-11 11:54:33 === Started libdnf-0.22.4 ===
+DEBUG Jun-11 11:54:33 fetching rpmdb
+DEBUG Jun-11 11:54:34 deleting file /tmp/tmpdir.KizLSv/repodata/repomd.xml
+DEBUG Jun-11 11:54:34 deleting directory /tmp/tmpdir.KizLSv/repodata
+DEBUG Jun-11 11:54:34 deleting directory /tmp/tmpdir.KizLSv
+DEBUG Jun-11 11:54:34 using cached dvd1 (0xb883789ef77815afb385691828f8d1adfb03be6b9950f622b10dee50897c137f)
+DEBUG Jun-11 11:54:34 load_ext: using cache file: /var/cache/dnf/dvd1-filenames.solvx
+DEBUG Jun-11 11:54:34 no presto metadata available for dvd1
+DEBUG Jun-11 11:54:34 no updateinfo available for dvd1
+DEBUG Jun-11 11:54:34 deleting file /tmp/tmpdir.3XFbQa/repodata/repomd.xml
+DEBUG Jun-11 11:54:34 deleting directory /tmp/tmpdir.3XFbQa/repodata
+DEBUG Jun-11 11:54:34 deleting directory /tmp/tmpdir.3XFbQa
+DEBUG Jun-11 11:54:34 using cached dvd2 (0xede273cc029ffbd005d25a950f0078f104abe9424b38c28893477a8525c97bd0)
+DEBUG Jun-11 11:54:35 load_ext: using cache file: /var/cache/dnf/dvd2-filenames.solvx
+DEBUG Jun-11 11:54:35 no presto metadata available for dvd2
+DEBUG Jun-11 11:54:35 no updateinfo available for dvd2
+DEBUG Jun-11 11:54:36 deleting file /tmp/tmpdir.TrCojQ/repodata/repomd.xml
+DEBUG Jun-11 11:54:36 deleting directory /tmp/tmpdir.TrCojQ/repodata
+DEBUG Jun-11 11:54:36 deleting directory /tmp/tmpdir.TrCojQ
+DEBUG Jun-11 11:54:36 using cached docker (0x5f7d37335b28ecd8ead6ef0595180c3aa6be8188d939911d54d4699ee0a48036)
+DEBUG Jun-11 11:54:36 load_ext: using cache file: /var/cache/dnf/docker-filenames.solvx
+DEBUG Jun-11 11:54:36 no presto metadata available for docker
+DEBUG Jun-11 11:54:36 load_ext: using cache file: /var/cache/dnf/docker-updateinfo.solvx
+DEBUG Jun-11 11:54:38 deleting file /tmp/tmpdir.TwsWOy/repodata/repomd.xml
+DEBUG Jun-11 11:54:38 deleting directory /tmp/tmpdir.TwsWOy/repodata
+DEBUG Jun-11 11:54:38 deleting directory /tmp/tmpdir.TwsWOy
+DEBUG Jun-11 11:54:38 using cached jenkins (0xa8b463b45521eda89ebab20646889b2d2d5af586d54840b4a2b81f52af2786c0)
+DEBUG Jun-11 11:54:38 load_ext: using cache file: /var/cache/dnf/jenkins-filenames.solvx
+DEBUG Jun-11 11:54:38 no presto metadata available for jenkins
+DEBUG Jun-11 11:54:38 no updateinfo available for jenkins
+DEBUG Jun-11 11:54:38 Architecture is: x86_64
+DEBUG Jun-11 11:54:39 running_kernel(): running kernel not matched to a package.
+DEBUG Jun-11 11:54:41 running_kernel(): kernel-core-4.18.0-80.el8.x86_64.
+INFO Jun-11 12:00:18 === Started libdnf-0.22.4 ===
+DEBUG Jun-11 12:00:18 fetching rpmdb
+DEBUG Jun-11 12:00:19 using cached dvd1 (0xb883789ef77815afb385691828f8d1adfb03be6b9950f622b10dee50897c137f)
+DEBUG Jun-11 12:00:19 load_ext: using cache file: /var/cache/dnf/dvd1-filenames.solvx
+DEBUG Jun-11 12:00:19 no presto metadata available for dvd1
+DEBUG Jun-11 12:00:19 no updateinfo available for dvd1
+DEBUG Jun-11 12:00:19 using cached dvd2 (0xede273cc029ffbd005d25a950f0078f104abe9424b38c28893477a8525c97bd0)
+DEBUG Jun-11 12:00:19 load_ext: using cache file: /var/cache/dnf/dvd2-filenames.solvx
+DEBUG Jun-11 12:00:19 no presto metadata available for dvd2
+DEBUG Jun-11 12:00:19 no updateinfo available for dvd2
+DEBUG Jun-11 12:00:19 using cached docker (0x5f7d37335b28ecd8ead6ef0595180c3aa6be8188d939911d54d4699ee0a48036)
+DEBUG Jun-11 12:00:19 load_ext: using cache file: /var/cache/dnf/docker-filenames.solvx
+DEBUG Jun-11 12:00:19 no presto metadata available for docker
+DEBUG Jun-11 12:00:19 load_ext: using cache file: /var/cache/dnf/docker-updateinfo.solvx
+DEBUG Jun-11 12:00:19 using cached jenkins (0xa8b463b45521eda89ebab20646889b2d2d5af586d54840b4a2b81f52af2786c0)
+DEBUG Jun-11 12:00:19 load_ext: using cache file: /var/cache/dnf/jenkins-filenames.solvx
+DEBUG Jun-11 12:00:19 no presto metadata available for jenkins
+DEBUG Jun-11 12:00:19 no updateinfo available for jenkins
+DEBUG Jun-11 12:00:19 Architecture is: x86_64
+DEBUG Jun-11 12:00:20 running_kernel(): running kernel not matched to a package.
+DEBUG Jun-11 12:00:21 running_kernel(): kernel-core-4.18.0-80.el8.x86_64.
+INFO Jun-11 12:01:23 === Started libdnf-0.22.4 ===
+DEBUG Jun-11 12:01:23 fetching rpmdb
+DEBUG Jun-11 12:01:24 using cached dvd1 (0xb883789ef77815afb385691828f8d1adfb03be6b9950f622b10dee50897c137f)
+DEBUG Jun-11 12:01:24 load_ext: using cache file: /var/cache/dnf/dvd1-filenames.solvx
+DEBUG Jun-11 12:01:24 no presto metadata available for dvd1
+DEBUG Jun-11 12:01:24 no updateinfo available for dvd1
+DEBUG Jun-11 12:01:24 using cached dvd2 (0xede273cc029ffbd005d25a950f0078f104abe9424b38c28893477a8525c97bd0)
+DEBUG Jun-11 12:01:24 load_ext: using cache file: /var/cache/dnf/dvd2-filenames.solvx
+DEBUG Jun-11 12:01:24 no presto metadata available for dvd2
+DEBUG Jun-11 12:01:24 no updateinfo available for dvd2
+DEBUG Jun-11 12:01:24 using cached docker (0x5f7d37335b28ecd8ead6ef0595180c3aa6be8188d939911d54d4699ee0a48036)
+DEBUG Jun-11 12:01:24 load_ext: using cache file: /var/cache/dnf/docker-filenames.solvx
+DEBUG Jun-11 12:01:24 no presto metadata available for docker
+DEBUG Jun-11 12:01:24 load_ext: using cache file: /var/cache/dnf/docker-updateinfo.solvx
+DEBUG Jun-11 12:01:24 using cached jenkins (0xa8b463b45521eda89ebab20646889b2d2d5af586d54840b4a2b81f52af2786c0)
+DEBUG Jun-11 12:01:24 load_ext: using cache file: /var/cache/dnf/jenkins-filenames.solvx
+DEBUG Jun-11 12:01:24 no presto metadata available for jenkins
+DEBUG Jun-11 12:01:24 no updateinfo available for jenkins
+DEBUG Jun-11 12:01:24 Architecture is: x86_64
+DEBUG Jun-11 12:01:25 running_kernel(): running kernel not matched to a package.
+DEBUG Jun-11 12:01:26 running_kernel(): kernel-core-4.18.0-80.el8.x86_64.
+INFO Jun-11 18:45:51 === Started libdnf-0.22.4 ===
+DEBUG Jun-11 18:45:51 deleting file /tmp/tmpdir.JFjyJF/repodata/repomd.xml
+DEBUG Jun-11 18:45:51 deleting directory /tmp/tmpdir.JFjyJF/repodata
+DEBUG Jun-11 18:45:51 deleting directory /tmp/tmpdir.JFjyJF
+DEBUG Jun-11 18:45:51 using cached dvd1 (0xb883789ef77815afb385691828f8d1adfb03be6b9950f622b10dee50897c137f)
+DEBUG Jun-11 18:45:51 load_ext: using cache file: /var/cache/dnf/dvd1-filenames.solvx
+DEBUG Jun-11 18:45:51 no presto metadata available for dvd1
+DEBUG Jun-11 18:45:51 no updateinfo available for dvd1
+DEBUG Jun-11 18:45:51 deleting file /tmp/tmpdir.puduSk/repodata/repomd.xml
+DEBUG Jun-11 18:45:51 deleting directory /tmp/tmpdir.puduSk/repodata
+DEBUG Jun-11 18:45:51 deleting directory /tmp/tmpdir.puduSk
+DEBUG Jun-11 18:45:51 using cached dvd2 (0xede273cc029ffbd005d25a950f0078f104abe9424b38c28893477a8525c97bd0)
+DEBUG Jun-11 18:45:52 load_ext: using cache file: /var/cache/dnf/dvd2-filenames.solvx
+DEBUG Jun-11 18:45:52 no presto metadata available for dvd2
+DEBUG Jun-11 18:45:52 no updateinfo available for dvd2
+DEBUG Jun-11 18:45:52 deleting file /tmp/tmpdir.ZyFND0/repodata/repomd.xml
+DEBUG Jun-11 18:45:52 deleting directory /tmp/tmpdir.ZyFND0/repodata
+DEBUG Jun-11 18:45:52 deleting directory /tmp/tmpdir.ZyFND0
+DEBUG Jun-11 18:45:52 deleting file /tmp/tmpdir.7l2QpG/repodata/repomd.xml
+DEBUG Jun-11 18:45:52 deleting directory /tmp/tmpdir.7l2QpG/repodata
+DEBUG Jun-11 18:45:52 deleting directory /tmp/tmpdir.7l2QpG
+DEBUG Jun-11 18:45:52 Architecture is: x86_64
+DEBUG Jun-11 18:45:53 running_kernel(): running kernel not matched to a package.
